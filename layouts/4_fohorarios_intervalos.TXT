@@ -1,0 +1,7 @@
+2	FOHORARIOS_INTERVALOS	1	CODI_EMP	Código da empresa.   (CODI_EMP)	integer	1	7		I		0
+2	FOHORARIOS_INTERVALOS	2	I_HORARIO	Código do horário.   (I_HORARIO)	integer	1	7		I		0
+2	FOHORARIOS_INTERVALOS	3	I_INTERVALO	I_INTERVALO   (I_INTERVALO)	integer	1	7		I		0
+2	FOHORARIOS_INTERVALOS	4	HORA_INICIO	Hora de início do intervalo.   (HORA_INICIO)	time	1	8	HH:MM:SS	I		0
+2	FOHORARIOS_INTERVALOS	5	HORA_FIM	Hora do fim do intervalo.   (HORA_FIM)	time	1	8	HH:MM:SS	I		0
+2	FOHORARIOS_INTERVALOS	6	INTERVALO_PRINCIPAL	Tipo de intervalo. (0=Não/1=Sim)   (INTERVALO_PRINCIPAL)	smallint	1	7		I		0
+2	FOHORARIOS_INTERVALOS	7	ORIGEM_REG	Origem do registro. (0=Sistema/1=Imp. tabelas/2=Imp. Layout)   (ORIGEM_REG)	smallint	1	7		I		0

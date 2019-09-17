@@ -1,0 +1,7 @@
+2	FOJORNADAS_HORARIOS	1	CODI_EMP	Código da empresa.   (CODI_EMP)	integer	1	7		I		0
+2	FOJORNADAS_HORARIOS	2	I_JORNADA	Código do jornada.   (I_JORNADA)	integer	1	7		I		0
+2	FOJORNADAS_HORARIOS	3	SEQUENCIAL	Sequencial.   (SEQUENCIAL)	integer	1	7		I		0
+2	FOJORNADAS_HORARIOS	4	DIA_SEMANA	Dia da semana. (1=Segunda a sexta/2=Segunda/3=Terça/4=Quarta/5=Quinta/6=Sexta/7=Sábado/8=Domingo/9=1º dia/10=2º dia/11=3º dia/12=Escala)   (DIA_SEMANA)	smallint	1	7		I		0
+2	FOJORNADAS_HORARIOS	5	I_HORARIO	Código do horário.   (I_HORARIO)	integer	1	7		I		0
+2	FOJORNADAS_HORARIOS	6	ORIGEM_REG	Origem do registro. (0=Sistema/1=Imp. tabelas/2=Imp. Layout)   (ORIGEM_REG)	smallint	1	7		I		0
+2	FOJORNADAS_HORARIOS	7	SEQUENCIAL_DIA_SEMANA	Sequencial do dia da semana para jornadas do tipo escala.   (SEQUENCIAL_DIA_SEMANA)	smallint	1	7		I		0

@@ -1,0 +1,41 @@
+2	FOSERVICOS	1	codi_emp	Codigo empresa   (codi_emp)	integer	1	7		I		0
+2	FOSERVICOS	2	i_servicos	Codigo   (i_servicos)	integer	1	7		I		0
+2	FOSERVICOS	3	cgc	** SEM USO ** CNPJ/CPF/CEI   (cgc)	char	1	14		I		0
+2	FOSERVICOS	4	tipo_insc	** SEM USO ** Tipo inscricao   (tipo_insc)	smallint	1	7		I		0
+2	FOSERVICOS	5	codigo_terceiro	** SEM USO ** Codigo terceiro   (codigo_terceiro)	numeric	1	4		I		0
+2	FOSERVICOS	6	perc_terceiro	** SEM USO ** Terceiro(%)   (perc_terceiro)	numeric	1	5		I		3
+2	FOSERVICOS	7	perc_inss_empresa	** SEM USO ** INSS Empresa(%)   (perc_inss_empresa)	numeric	1	5		I		3
+2	FOSERVICOS	8	perc_acid_trabalho	** SEM USO ** Acid. Trabalho(%)   (perc_acid_trabalho)	numeric	1	5		I		3
+2	FOSERVICOS	9	codigo_sat	** SEM USO ** Codigo do SAT   (codigo_sat)	numeric	1	5		I		0
+2	FOSERVICOS	10	perc_autonomos	** SEM USO ** Pro-Lab./Aut.(%)   (perc_autonomos)	numeric	1	5		I		3
+2	FOSERVICOS	11	codigo_fpas	** SEM USO ** Codigo FPAS   (codigo_fpas)	numeric	1	3		I		0
+2	FOSERVICOS	12	codigo_atividade	** SEM USO ** CNAE   (codigo_atividade)	numeric	1	7		I		0
+2	FOSERVICOS	13	codigo_gfip	** SEM USO ** Codigo SEFIP   (codigo_gfip)	numeric	1	3		I		0
+2	FOSERVICOS	14	codigo_gps	** SEM USO ** Codigo GPS   (codigo_gps)	numeric	1	4		I		0
+2	FOSERVICOS	15	i_bancos	** SEM USO ** Banco   (i_bancos)	integer	1	7		I		0
+2	FOSERVICOS	16	numero_fgts	** SEM USO ** Numero   (numero_fgts)	numeric	1	14		I		0
+2	FOSERVICOS	17	nome	Nome   (nome)	char	1	40		I		0
+2	FOSERVICOS	18	endereco	** SEM USO ** Endereco   (endereco)	char	1	31		I		0
+2	FOSERVICOS	19	numero	** SEM USO ** Numero   (numero)	integer	1	7		I		0
+2	FOSERVICOS	20	bairro	** SEM USO ** Bairro   (bairro)	char	1	20		I		0
+2	FOSERVICOS	21	cep	** SEM USO ** CEP   (cep)	char	1	8		I		0
+2	FOSERVICOS	22	cidade	** SEM USO ** Cidade   (cidade)	char	1	20		I		0
+2	FOSERVICOS	23	estado	** SEM USO ** UF   (estado)	char	1	2		I		0
+2	FOSERVICOS	24	i_filiais	** SEM USO ** Filial   (i_filiais)	integer	1	7		I		0
+2	FOSERVICOS	25	sequencia_gps	** SEM USO ** Sequencia   (sequencia_gps)	integer	1	7		I		0
+2	FOSERVICOS	26	filantropia	** SEM USO ** Isencao Filantropia(%)   (filantropia)	numeric	1	6		I		3
+2	FOSERVICOS	27	origem_reg	Origem do registro 0 - Sistema, 1 - Imp. Tabelas, 2 - Imp. Layout, 3- Imp. Tabelas Concorrentes   (origem_reg)	tinyint	1	3		I		0
+2	FOSERVICOS	28	tipo	** SEM USO **    (tipo)	integer	1	7		I		0
+2	FOSERVICOS	29	codi_mun	** SEM USO ** Codigo do municipio   (codi_mun)	integer	1	7		I		0
+2	FOSERVICOS	30	codigo_municipio	** SEM USO ** Codigo do municipio   (codigo_municipio)	integer	1	7		I		0
+2	FOSERVICOS	31	I_FPAS	** SEM USO ** Código Sequencial FPAS   (I_FPAS)	integer	1	7		I		0
+2	FOSERVICOS	32	DATA_INICIO	Data de início do serviço.   (DATA_INICIO)	date	1	10	DD/MM/YYYY	I		0
+2	FOSERVICOS	33	SITUACAO	Situação do serviço. (0=Inativo/1=Ativo)   (SITUACAO)	smallint	1	7		I		0
+2	FOSERVICOS	34	DATA_INATIVACAO	Data de inativação do serviço.   (DATA_INATIVACAO)	date	1	10	DD/MM/YYYY	I		0
+2	FOSERVICOS	35	CODIGO_ESOCIAL	Código no eSocial.   (CODIGO_ESOCIAL)	varchar	1	30		I		0
+2	FOSERVICOS	36	I_DADOS_EVENTOS_ESOCIAL	Identificador dos dados de envio ao eSocial.   (I_DADOS_EVENTOS_ESOCIAL)	integer	1	7		I		0
+2	FOSERVICOS	37	I_LOTE_ESOCIAL	Identificador do lote de envio ao eSocial.   (I_LOTE_ESOCIAL)	integer	1	7		I		0
+2	FOSERVICOS	38	STATUS_ESOCIAL	Status no eSocial. (1=Aguardando resposta/2=Invalidado/3=Validado/4=Erro estrutural/5=Erro de validação XSD/6=Em Processamento Exclusão/7=Invalidado - Exclusão/8=Erro estrutural - Exclusão/9=Erros de Preenchimento - Exclusão/10=Aguardando Envio Multi	smallint	1	7		I		0
+2	FOSERVICOS	39	ENVIAR_ESOCIAL	Enviar para o eSocial. (0=Não/1=Sim)   (ENVIAR_ESOCIAL)	smallint	1	7		I		0
+2	FOSERVICOS	40	INCLUSAO_VALIDADA_ESOCIAL	Indica se o registro de inclusão no eSocial já foi validado. (0=Não/1=Sim)   (INCLUSAO_VALIDADA_ESOCIAL)	smallint	1	7		I		0
+2	FOSERVICOS	41	GERAR_RETIFICACAO_ESOCIAL	Gerar retificação para o eSocial. (0=Não/1=Sim)   (GERAR_RETIFICACAO_ESOCIAL)	smallint	1	7		I		0

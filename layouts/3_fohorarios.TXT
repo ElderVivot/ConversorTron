@@ -1,0 +1,23 @@
+2	FOHORARIOS	1	CODI_EMP	Código da empresa.   (CODI_EMP)	integer	1	7		I		0
+2	FOHORARIOS	2	I_HORARIO	Código do horário.   (I_HORARIO)	integer	1	7		I		0
+2	FOHORARIOS	3	NOME	Nome do horário.   (NOME)	varchar	1	30		I		0
+2	FOHORARIOS	4	DATA_INICIO	Data de início do horário.   (DATA_INICIO)	date	1	10	DD/MM/YYYY	I		0
+2	FOHORARIOS	5	SITUACAO	Situação do horário. (0=Inativo/1=Ativo)   (SITUACAO)	smallint	1	7		I		0
+2	FOHORARIOS	6	DATA_INATIVACAO	Data de inativação do horário.   (DATA_INATIVACAO)	date	1	10	DD/MM/YYYY	I		0
+2	FOHORARIOS	7	TIPO	Tipo de horário. (1=Trabalhado/2=Compensado/3=Folga)   (TIPO)	smallint	1	7		I		0
+2	FOHORARIOS	8	HORA_ENTRADA	Hora de entrada.   (HORA_ENTRADA)	time	1	8	HH:MM:SS	I		0
+2	FOHORARIOS	9	HORA_SAIDA	Hora de saída. (1=Trabalhado/2=Compensado/3=Folga)   (HORA_SAIDA)	time	1	8	HH:MM:SS	I		0
+2	FOHORARIOS	10	TIPO_INTERVALO	Tipo de intervalo. (0=Não possui/1=Em horário variável/3=Em horário fixo)   (TIPO_INTERVALO)	smallint	1	7		I		0
+2	FOHORARIOS	11	DURACAO_INTERVALO	/** SEM USO **/   (DURACAO_INTERVALO)	time	1	8	HH:MM:SS	I		0
+2	FOHORARIOS	12	ORIGEM_REG	Origem do registro 0 - Sistema, 1 - Imp. Tabelas, 2 - Imp. Layout, 3- Imp. Tabelas Concorrentes   (ORIGEM_REG)	smallint	1	7		I		0
+2	FOHORARIOS	13	CODIGO_ESOCIAL	Código no eSocial.   (CODIGO_ESOCIAL)	varchar	1	30		I		0
+2	FOHORARIOS	14	VARIACAO_DIARIA_ENTRADA_SAIDA	Variação diária entrada/saída. (0=Não/1=Sim)   (VARIACAO_DIARIA_ENTRADA_SAIDA)	smallint	1	7		I		0
+2	FOHORARIOS	15	DURACAO_JORNADA	/** SEM USO **/   (DURACAO_JORNADA)	time	1	8	HH:MM:SS	I		0
+2	FOHORARIOS	16	DURACAO_JORNADA_MINUTOS	Duração da jornada em minutos.   (DURACAO_JORNADA_MINUTOS)	smallint	1	7		I		0
+2	FOHORARIOS	17	DURACAO_INTERVALO_MINUTOS	Duração do intervalo em minutos.   (DURACAO_INTERVALO_MINUTOS)	smallint	1	7		I		0
+2	FOHORARIOS	18	I_DADOS_EVENTOS_ESOCIAL	Identificador dos dados de envio ao eSocial.   (I_DADOS_EVENTOS_ESOCIAL)	integer	1	7		I		0
+2	FOHORARIOS	19	I_LOTE_ESOCIAL	Identificador do lote de envio ao eSocial.   (I_LOTE_ESOCIAL)	integer	1	7		I		0
+2	FOHORARIOS	20	STATUS_ESOCIAL	Status no eSocial. (1=Aguardando resposta/2=Invalidado/3=Validado/4=Erro estrutural/5=Erro de validação XSD/6=Em Processamento Exclusão/7=Invalidado - Exclusão/8=Erro estrutural - Exclusão/9=Erros de Preenchimento - Exclusão/10=Aguardando Envio Multi	smallint	1	7		I		0
+2	FOHORARIOS	21	ENVIAR_ESOCIAL	Enviar para o eSocial. (0=Não/1=Sim)   (ENVIAR_ESOCIAL)	smallint	1	7		I		0
+2	FOHORARIOS	22	INCLUSAO_VALIDADA_ESOCIAL	Indica se o registro de inclusão no eSocial já foi validado. (0=Não/1=Sim)   (INCLUSAO_VALIDADA_ESOCIAL)	smallint	1	7		I		0
+2	FOHORARIOS	23	GERAR_RETIFICACAO_ESOCIAL	Gerar retificação para o eSocial. (0=Não/1=Sim)   (GERAR_RETIFICACAO_ESOCIAL)	smallint	1	7		I		0

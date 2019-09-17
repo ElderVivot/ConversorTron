@@ -1,0 +1,42 @@
+2	FOSINDICATOS	1	[Desprezar]	[Desprezar]	char	2	10		I		0
+2	FOSINDICATOS	2	i_sindicatos	Codigo   (i_sindicatos)	integer	1	7		I		0
+2	FOSINDICATOS	3	nome	Nome   (nome)	varchar	1	115		I		0
+2	FOSINDICATOS	4	endereco	Endereco   (endereco)	char	1	40		I		0
+2	FOSINDICATOS	5	numero	No.   (numero)	integer	1	7		I		0
+2	FOSINDICATOS	6	bairro	Bairro   (bairro)	char	1	30		I		0
+2	FOSINDICATOS	7	cep	CEP   (cep)	char	1	8		I		0
+2	FOSINDICATOS	8	cgc	CNPJ   (cgc)	char	1	18		I		0
+2	FOSINDICATOS	9	mes_contribuicao	Mes de contribuicao   (mes_contribuicao)	integer	1	7		I		0
+2	FOSINDICATOS	10	mes_base	Mes Base   (mes_base)	tinyint	1	3		I		0
+2	FOSINDICATOS	11	cidade	Cidade   (cidade)	char	1	40		I		0
+2	FOSINDICATOS	12	estado	Estado   (estado)	char	1	2		I		0
+2	FOSINDICATOS	13	PAGINA_INTERNET	Endereço da página na Internet   (PAGINA_INTERNET)	char	1	40		I		0
+2	FOSINDICATOS	14	EMAIL	Correio eletrônico   (EMAIL)	char	1	255		I		0
+2	FOSINDICATOS	15	fone	Telefone   (fone)	char	1	15		I		0
+2	FOSINDICATOS	16	fax	Fax   (fax)	char	1	15		I		0
+2	FOSINDICATOS	17	codi_entidade	Codigo da Entidade   (codi_entidade)	char	1	18		I		0
+2	FOSINDICATOS	18	complemento	Complemento   (complemento)	char	1	25		I		0
+2	FOSINDICATOS	19	multa_db	Multa rescisao   (multa_db)	char	1	1		F	N	0
+2	FOSINDICATOS	20	criterio_dias_aviso	Indica se é para utilizar E ou OU no calculo de dias de aviso   (criterio_dias_aviso)	tinyint	1	3		F	1	0
+2	FOSINDICATOS	21	adic_noturno	Perc. do adicional noturno   (adic_noturno)	numeric	1	13		F	0	2
+2	FOSINDICATOS	22	dias_multa_db	Dias multa   (dias_multa_db)	integer	1	7		F	0	0
+2	FOSINDICATOS	23	med_13_nmeses	Ultimos meses 13   (med_13_nmeses)	smallint	1	7		F	12	0
+2	FOSINDICATOS	24	tipo_entidade	Tipo da entidade 1=Sindicato, 2=Federacao, 3=Confederacao, 4=Cees   (tipo_entidade)	tinyint	1	3		F	1	0
+2	FOSINDICATOS	25	corrigir_medias	Corrige medias   (corrigir_medias)	char	1	1		F	N	0
+2	FOSINDICATOS	26	piso_salarial	Piso Salarial   (piso_salarial)	numeric	1	13		F	0	2
+2	FOSINDICATOS	27	perc_multa_db	Percentual multa   (perc_multa_db)	numeric	1	5		F	100	2
+2	FOSINDICATOS	28	origem_reg	Origem do registro 0=Sistema, 1=Imp. Tabelas, 2=Imp. Layout   (origem_reg)	tinyint	1	3		F	1	0
+2	FOSINDICATOS	29	med_fer_nmeses	Ultimos meses ferias   (med_fer_nmeses)	smallint	1	7		F	12	0
+2	FOSINDICATOS	30	med_aviso_nmeses	Ultimos meses aviso previo   (med_aviso_nmeses)	smallint	1	7		F	12	0
+2	FOSINDICATOS	31	med_fer_periodo	Media ferias   (med_fer_periodo)	tinyint	1	3		F	1	0
+2	FOSINDICATOS	32	medias_nmes	Media por meses com valor   (medias_nmes)	char	1	1		F	N	0
+2	FOSINDICATOS	33	form_dias_adm	Salario mes admissao   (form_dias_adm)	char	1	1		F	T	0
+2	FOSINDICATOS	34	meses_fer_prop	Meses ferias proporcionais   (meses_fer_prop)	integer	1	7		F	1	0
+2	FOSINDICATOS	35	meses_medias	Meses media   (meses_medias)	integer	1	7		F	12	0
+2	FOSINDICATOS	36	med_mes_resc	Considera o mês da rescisão para pagar médias. 0 - Não/ 1- Sim   (med_mes_resc)	char	1	1		F	N	0
+2	FOSINDICATOS	37	PAGAR_AVOS_PERDIDOS_POR_AFASTAMENTO	PAGAR AVOS DOS DIAS TRABALHADOS NO PERÍODO AQUISITIVO COM MAIS DE 180 DIAS AFASTADOS PELA PREVIDÊNCIA   (PAGAR_AVOS_PERDIDOS_POR_AFASTAMENTO)	smallint	1	7		F	0	0
+2	FOSINDICATOS	38	FERIAS_COLETIVAS_ANO_ADMISSAO	INDICA SE DEVE ALTERAR PERIODO AQUISITIVO PARA EMPREGADOS COM MENOS DE UM ANO DE ADMISSAO EM FERIAS COLETIVAS   (FERIAS_COLETIVAS_ANO_ADMISSAO)	smallint	1	7		F	1	0
+2	FOSINDICATOS	39	MED_13_FORMA_CALCULO	1 CLT 2 ConvenCAo Coletiva   (MED_13_FORMA_CALCULO)	smallint	1	7		F	1	0
+2	FOSINDICATOS	40	MED_AVISO_FORMA_CALCULO	1 CLT 2 ConvenCAo Coletiva   (MED_AVISO_FORMA_CALCULO)	smallint	1	7		F	1	0
+2	FOSINDICATOS	41	MED_FER_FORMA_CALCULO	1 CLT 2 ConvenCAo Coletiva   (MED_FER_FORMA_CALCULO)	smallint	1	7		F	1	0
+2	FOSINDICATOS	42	PERMITIR_INICIO_GOZO_FERIAS_ENTRE_FERIADO_FIM_SEMA	Permitir o início do gozo de férias entre feriado e fim de semana. (0=Não/1=Sim)   (PERMITIR_INICIO_GOZO_FERIAS_ENTRE_FERIADO_FIM_SEMANA)	smallint	1	7		F	0	0

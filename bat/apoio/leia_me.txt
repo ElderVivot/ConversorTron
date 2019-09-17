@@ -1,0 +1,3 @@
+
+2- Procurar referente as transferências. Possíveis tabelas:
+* TBLCTTSIT: grava a situação do empregado, onde o código 28 é transferência de entre empresas de acordo a tabela TBLSITEPG

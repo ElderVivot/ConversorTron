@@ -1,0 +1,10 @@
+2	FOJORNADAS	1	CODI_EMP	Código da empresa.   (CODI_EMP)	integer	1	7		I		0
+2	FOJORNADAS	2	I_JORNADA	Código do jornada.   (I_JORNADA)	integer	1	7		I		0
+2	FOJORNADAS	3	NOME	Nome da jornada.   (NOME)	varchar	1	100		I		0
+2	FOJORNADAS	4	DATA_INICIO	Data de início da jornada.   (DATA_INICIO)	date	1	10	DD/MM/YYYY	I		0
+2	FOJORNADAS	5	SITUACAO	Situação da jornada. (0=Inativo/1=Ativo)   (SITUACAO)	smallint	1	7		I		0
+2	FOJORNADAS	6	DATA_INATIVACAO	Data de inativação da jornada.   (DATA_INATIVACAO)	date	1	10	DD/MM/YYYY	I		0
+2	FOJORNADAS	7	TIPO	Tipo de jornada. (1=Padrão/2=Turno fixo/3=Turno variável/4=Especial/Escala)   (TIPO)	smallint	1	7		I		0
+2	FOJORNADAS	8	TIPO_ESCALA	Tipo de escala. (0=Não possui/1=12x36/2=24x72/3=Outras)   (TIPO_ESCALA)	smallint	1	7		I		0
+2	FOJORNADAS	9	ESCALA	Descrição da escala.   (ESCALA)	varchar	1	15		I		0
+2	FOJORNADAS	10	ORIGEM_REG	Origem do registro. (0=Sistema/1=Imp. tabelas/2=Imp. Layout)   (ORIGEM_REG)	smallint	1	7		I		0

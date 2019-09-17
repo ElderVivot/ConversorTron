@@ -1,0 +1,124 @@
+2	GEEMPRE	1	codi_emp	Codigo   (codi_emp)	integer	1	7		I		0
+2	GEEMPRE	2	nome_emp	Nome   (nome_emp)	char	1	40		I		0
+2	GEEMPRE	3	ende_emp	Endereco   (ende_emp)	char	1	40		I		0
+2	GEEMPRE	4	cepe_emp	CEP   (cepe_emp)	char	1	8		I		0
+2	GEEMPRE	5	cida_emp	Cidade   (cida_emp)	char	1	25		I		0
+2	GEEMPRE	6	cgce_emp	CNPJ   (cgce_emp)	char	1	14		I		0
+2	GEEMPRE	7	iest_emp	Inscricao estadual   (iest_emp)	char	1	22		I		0
+2	GEEMPRE	8	imun_emp	Inscricao municipal   (imun_emp)	char	1	20		I		0
+2	GEEMPRE	9	ijuc_emp	Inscricao na junta comercial   (ijuc_emp)	char	1	30		I		0
+2	GEEMPRE	10	bair_emp	Bairro   (bair_emp)	char	1	60		I		0
+2	GEEMPRE	11	ramo_emp	Ramo de atividade   (ramo_emp)	char	1	180		I		0
+2	GEEMPRE	12	apel_emp	Apelido   (apel_emp)	char	1	20		I		0
+2	GEEMPRE	13	codi_mun	Codigo do municipio   (codi_mun)	integer	1	7		I		0
+2	GEEMPRE	14	nume_emp	Numero   (nume_emp)	integer	1	7		I		0
+2	GEEMPRE	15	djuc_emp	Data de inscricao na junta comercial   (djuc_emp)	date	1	10	DD/MM/YYYY	I		0
+2	GEEMPRE	16	fone_emp	Telefone   (fone_emp)	char	1	14		I		0
+2	GEEMPRE	17	rleg_emp	Responsavel legal   (rleg_emp)	char	1	60		I		0
+2	GEEMPRE	18	esta_emp	Estado   (esta_emp)	char	1	2		I		0
+2	GEEMPRE	19	tins_emp	Tipo da inscricao (1 - CNPJ/2 - CPF/3 - CEI)   (tins_emp)	integer	1	7		I		0
+2	GEEMPRE	20	stat_emp	Situacao (A - Ativa/ I - Inativa/C - Em Constituicao/ M - Ativo sem movimento/ B - Em processo de baixa)   (stat_emp)	char	1	1		I		0
+2	GEEMPRE	21	dina_emp	Data que ficou inativo   (dina_emp)	date	1	10	DD/MM/YYYY	I		0
+2	GEEMPRE	22	dcad_emp	Data do cadastramento   (dcad_emp)	date	1	10	DD/MM/YYYY	I		0
+2	GEEMPRE	23	sele_emp	Selecionada (1 - Sim/0 - Nao)   (sele_emp)	tinyint	1	3		I		0
+2	GEEMPRE	24	codi_cla	Este campo nao e mais usado a partir da versao 6.1A-01 do Contabil   (codi_cla)	tinyint	1	3		I		0
+2	GEEMPRE	25	ucta_emp	Usa contabilidade (1 - Sim/0 - Nao)   (ucta_emp)	tinyint	1	3		I		0
+2	GEEMPRE	26	ucxa_emp	Usa livro caixa (1 - Sim/0 - Nao)   (ucxa_emp)	tinyint	1	3		I		0
+2	GEEMPRE	27	uhon_emp	Usa honorarios (1 - Sim/0 - Nao)   (uhon_emp)	tinyint	1	3		I		0
+2	GEEMPRE	28	uefi_emp	Usa escrita fiscal (1 - Sim/0 - Nao)   (uefi_emp)	tinyint	1	3		I		0
+2	GEEMPRE	29	upat_emp	Usa patrimonio (1 - Sim/0 - Nao)   (upat_emp)	tinyint	1	3		I		0
+2	GEEMPRE	30	ulal_emp	Usa lalur (1 - Sim/0 - Nao)   (ulal_emp)	tinyint	1	3		I		0
+2	GEEMPRE	31	uatu_emp	Usa atualizar (1 - Sim/0 - Nao)   (uatu_emp)	tinyint	1	3		I		0
+2	GEEMPRE	32	upro_emp	Usa protocolo (1 - Sim/0 - Nao)   (upro_emp)	tinyint	1	3		I		0
+2	GEEMPRE	33	ccae_emp	CAE   (ccae_emp)	double	1	8		I		0
+2	GEEMPRE	34	isub_emp	Inscricao Substituto Tributario   (isub_emp)	char	1	20		I		0
+2	GEEMPRE	35	empreg_emp	Nro de empregados da empresa   (empreg_emp)	integer	1	7		I		0
+2	GEEMPRE	36	vlfat_emp	Valor Medio do Faturamento   (vlfat_emp)	numeric	1	13		I		2
+2	GEEMPRE	37	vlhon_emp	Valor dos honorarios   (vlhon_emp)	numeric	1	13		I		2
+2	GEEMPRE	38	cpf_leg_emp	CPF do responsavel legal   (cpf_leg_emp)	char	1	14		I		0
+2	GEEMPRE	39	end_leg_emp	Endereco do responsavel legal   (end_leg_emp)	char	1	40		I		0
+2	GEEMPRE	40	mun_leg_emp	Municipio do responsavel legal   (mun_leg_emp)	char	1	25		I		0
+2	GEEMPRE	41	uf_leg_emp	Estado do responsavel legal   (uf_leg_emp)	char	1	2		I		0
+2	GEEMPRE	42	cep_leg_emp	CEP do responsavel legal   (cep_leg_emp)	char	1	8		I		0
+2	GEEMPRE	43	njud_emp	Natureza juridica   (njud_emp)	integer	1	7		I		0
+2	GEEMPRE	44	comp_emp	Complemento   (comp_emp)	char	1	30		I		0
+2	GEEMPRE	45	nume_leg_emp	Numero do responsavel legal   (nume_leg_emp)	integer	1	7		I		0
+2	GEEMPRE	46	bair_leg_emp	Bairro do responsavel legal   (bair_leg_emp)	char	1	15		I		0
+2	GEEMPRE	47	codm_leg_emp	Codigo do municipio do responsavel legal   (codm_leg_emp)	integer	1	7		I		0
+2	GEEMPRE	48	fone_leg_emp	Telefone do responsavel legal   (fone_leg_emp)	char	1	14		I		0
+2	GEEMPRE	49	cnae_emp	CNAE   (cnae_emp)	double	1	8		I		0
+2	GEEMPRE	50	dddf_emp	DDD   (dddf_emp)	integer	1	7		I		0
+2	GEEMPRE	51	codi_con	Contador   (codi_con)	integer	1	7		I		0
+2	GEEMPRE	52	cargo_leg_emp	Cargo do responsavel legal   (cargo_leg_emp)	char	1	30		I		0
+2	GEEMPRE	53	dddf_leg_emp	DDD do responsavel legal   (dddf_leg_emp)	integer	1	7		I		0
+2	GEEMPRE	54	livro_cart_emp	Nro do livro no cartorio de registros Especiais   (livro_cart_emp)	char	1	10		I		0
+2	GEEMPRE	55	folha_cart_emp	Folha do livro no cartorio de registros Especiais   (folha_cart_emp)	char	1	10		I		0
+2	GEEMPRE	56	nliv_cart_emp	Nro na folha do livro no cartorio de registros Especiais   (nliv_cart_emp)	char	1	10		I		0
+2	GEEMPRE	57	soc_civis_emp	Sociedade Civil (S/N)   (soc_civis_emp)	char	1	1		I		0
+2	GEEMPRE	58	cfdf_emp	CF/DF Somente para o Distrito Federal   (cfdf_emp)	char	1	13		I		0
+2	GEEMPRE	59	simples_emp	Enquadramento no simples - folha   (simples_emp)	char	1	1		I		0
+2	GEEMPRE	60	dsimples_emp	Data de enquadramento no simples - folha   (dsimples_emp)	date	1	10	DD/MM/YYYY	I		0
+2	GEEMPRE	61	munirais_emp	Codigo federal do municipio   (munirais_emp)	numeric	1	7		I		0
+2	GEEMPRE	62	rfed_emp	Regime federal - folha   (rfed_emp)	integer	1	7		I		0
+2	GEEMPRE	63	ufol_emp	Usa folha (1 - Sim/0 - Nao)   (ufol_emp)	tinyint	1	3		I		0
+2	GEEMPRE	64	upto_emp	Usa ponto (1 - Sim/0 - Nao)   (upto_emp)	tinyint	1	3		I		0
+2	GEEMPRE	65	comp_leg_emp	Complemento do responsavel legal   (comp_leg_emp)	char	1	30		I		0
+2	GEEMPRE	66	email_emp	email   (email_emp)	char	1	255		I		0
+2	GEEMPRE	67	i_classificacoes	Codigo da classificacao   (i_classificacoes)	integer	1	7		I		0
+2	GEEMPRE	68	ctahono_emp	Conta Contabil para integracao do Honorarios   (ctahono_emp)	integer	1	7		I		0
+2	GEEMPRE	69	rg_resp_emp	RG do responsavel legal   (rg_resp_emp)	char	1	15		I		0
+2	GEEMPRE	70	caedesm_emp	Codigo de desmembramento do CAE - MG   (caedesm_emp)	integer	1	7		I		0
+2	GEEMPRE	71	nome_cartorio_emp	Nome do cartorio   (nome_cartorio_emp)	varchar	1	100		I		0
+2	GEEMPRE	72	selehono_emp	Selecionado no novo honorarios (1 - Sim/0 - Nao)   (selehono_emp)	tinyint	1	3		I		0
+2	GEEMPRE	73	origem_reg	Origem do registro 0 - Sistema, 1 - Imp. Tabelas, 2 - Imp. Layout, 3- Imp. Tabelas Concorrentes   (origem_reg)	tinyint	1	3		I		0
+2	GEEMPRE	74	fantasia_emp	Nome fantasia   (fantasia_emp)	char	1	50		I		0
+2	GEEMPRE	75	foro_emp	Foro da comarca   (foro_emp)	char	1	50		I		0
+2	GEEMPRE	76	obj_social_emp	Objeto social   (obj_social_emp)	varchar	1	3000		I		0
+2	GEEMPRE	77	dtinicio_emp	Data de inicio das atividades   (dtinicio_emp)	date	1	10	DD/MM/YYYY	I		0
+2	GEEMPRE	78	pais_emp	Pais   (pais_emp)	varchar	1	50		I		0
+2	GEEMPRE	79	duracao_emp	Duracao do contrato (D - Determinado/I - Indeterminado)   (duracao_emp)	char	1	1		I		0
+2	GEEMPRE	80	data_cart	Data de registro no cartorio   (data_cart)	date	1	10	DD/MM/YYYY	I		0
+2	GEEMPRE	81	dttermino_emp	Data de termino do contrato   (dttermino_emp)	date	1	10	DD/MM/YYYY	I		0
+2	GEEMPRE	82	fax_emp	Numero do Fax   (fax_emp)	char	1	14		I		0
+2	GEEMPRE	83	ureg_emp	Usa registro (1 - Sim/0 - Nao)   (ureg_emp)	tinyint	1	3		I		0
+2	GEEMPRE	84	razao_emp	Razao Social   (razao_emp)	varchar	1	255		I		0
+2	GEEMPRE	85	tipoi_emp	Motivo da inatividade da empresa(1-Outros/2-Baixada/3-Transferida)   (tipoi_emp)	tinyint	1	3		I		0
+2	GEEMPRE	86	tipo_end_emp	Tipo do endereco   (tipo_end_emp)	tinyint	1	3		I		0
+2	GEEMPRE	87	codigo_pais	Codigo do pais   (codigo_pais)	integer	1	7		I		0
+2	GEEMPRE	88	codigo_municipio	Codigo do municipio   (codigo_municipio)	integer	1	7		I		0
+2	GEEMPRE	89	insc_suframa	Numero de inscricao na Suframa   (insc_suframa)	char	1	9		I		0
+2	GEEMPRE	90	i_cnae20	Codigo do CNAE 2.0   (i_cnae20)	char	1	15		I		0
+2	GEEMPRE	91	usa_cnae20	Usa o CNAE 2.0 (S/N)   (usa_cnae20)	char	1	1		I		0
+2	GEEMPRE	92	email_leg_emp	Email do responsavel legal   (email_leg_emp)	char	1	255		I		0
+2	GEEMPRE	93	upto_tec_emp	Usa teclado(1 - Sim/0 - Nao)   (upto_tec_emp)	tinyint	1	3		I		0
+2	GEEMPRE	94	observacao_emp	Observacoes   (observacao_emp)	varchar	1	32000		I		0
+2	GEEMPRE	95	uf_emissao_resp	UF emissão Responsavel Legal   (uf_emissao_resp)	varchar	1	2		I		0
+2	GEEMPRE	96	caixa_postal_emp	Caixa Postal   (caixa_postal_emp)	char	1	6		I		0
+2	GEEMPRE	97	usa_dominio_web	Usa Dominio Web(1 - Sim/0 - Nao)   (usa_dominio_web)	smallint	1	7		I		0
+2	GEEMPRE	98	CERTIFICADO_DIGITAL	Possui o Certificado digital para assinatura dos atos da Junta Comercial(S/N)   (CERTIFICADO_DIGITAL)	char	1	1		I		0
+2	GEEMPRE	99	SITE_EMP	Página da Internet da empresa   (SITE_EMP)	char	1	40		I		0
+2	GEEMPRE	100	QUALIFICACAO_LEG_EMP	Qualificação do responsável legal   (QUALIFICACAO_LEG_EMP)	integer	1	7		I		0
+2	GEEMPRE	101	HONORARIO_TIPO	Usar o modulo honorarios como Escritorio ou Cliente (E=Escritorio/C=Cliente)   (HONORARIO_TIPO)	char	1	1		I		0
+2	GEEMPRE	102	CNAE_20_DESMENBRAMENTO	Desmembramento do CNAE 2.0   (CNAE_20_DESMENBRAMENTO)	integer	1	7		I		0
+2	GEEMPRE	103	TIPO_REGISTRO	Registro (C=Cartório/ O=OAB)   (TIPO_REGISTRO)	char	1	1		I		0
+2	GEEMPRE	104	IDENTIFICACAO_LIVRO_DEMONSTRATIVO	Identificação da empresa nos livros e demonstrativos (E=Empresa/ N=Entidade/ S=Sociedade/ A=Sociedade de advogados)   (IDENTIFICACAO_LIVRO_DEMONSTRATIVO)	char	1	1		I		0
+2	GEEMPRE	105	ORGAO_EMISSOR_LEG_EMP	Orgão emissor do responsável legal   (ORGAO_EMISSOR_LEG_EMP)	char	1	14		I		0
+2	GEEMPRE	106	DATA_EMISSAO_LEG_EMP	Data de emissão do responsável legal   (DATA_EMISSAO_LEG_EMP)	date	1	10	DD/MM/YYYY	I		0
+2	GEEMPRE	107	IDENTIDADE_PROFISSIONAL_LEG_EMP	Identidade profissional do responsável legal   (IDENTIDADE_PROFISSIONAL_LEG_EMP)	varchar	1	30		I		0
+2	GEEMPRE	108	CODIGO_MUNICIPIO_CARTORIO	Município do cartório   (CODIGO_MUNICIPIO_CARTORIO)	integer	1	7		I		0
+2	GEEMPRE	109	PROFISSAO_LEG_EMP	Profissão   (PROFISSAO_LEG_EMP)	varchar	1	40		I		0
+2	GEEMPRE	110	NACIONALIDADE_LEG_EMP	Nacionalidade   (NACIONALIDADE_LEG_EMP)	varchar	1	40		I		0
+2	GEEMPRE	111	ESTADO_CIVIL_LEG_EMP	Estado Civil (1=Solteiro/2=Casado/3=Viúvo/4=Divorciado/5=Concubinato/6=Separado(a) judicialmente/7=União estável)   (ESTADO_CIVIL_LEG_EMP)	tinyint	1	3		I		0
+2	GEEMPRE	112	GERAR_INTEGRA	Gera informação para o INTEGRA - Thomson Reuters   (GERAR_INTEGRA)	char	1	1		I		0
+2	GEEMPRE	113	OBS_GERAL	OBS_GERAL   (OBS_GERAL)	varchar	1	32000		I		0
+2	GEEMPRE	114	OBS_SOCIETARIO	OBS_SOCIETARIO   (OBS_SOCIETARIO)	varchar	1	32000		I		0
+2	GEEMPRE	115	OBS_CONTABIL	OBS_CONTABIL   (OBS_CONTABIL)	varchar	1	32000		I		0
+2	GEEMPRE	116	OBS_FISCAL	OBS_FISCAL   (OBS_FISCAL)	varchar	1	32000		I		0
+2	GEEMPRE	117	OBS_PESSOAL	OBS_PESSOAL   (OBS_PESSOAL)	varchar	1	32000		I		0
+2	GEEMPRE	118	RESPONSAVEL_LEGAL_EMPRESA_JUNTO_BASE_RFB	É responsável legal da empresa junto as bases da RFB   (RESPONSAVEL_LEGAL_EMPRESA_JUNTO_BASE_RFB)	char	1	1		I		0
+2	GEEMPRE	119	I_DADOS_EVENTOS_ESOCIAL	Identificador dos dados de envio ao eSocial.   (I_DADOS_EVENTOS_ESOCIAL)	integer	1	7		I		0
+2	GEEMPRE	120	I_LOTE_ESOCIAL	Identificador do lote de envio ao eSocial.   (I_LOTE_ESOCIAL)	integer	1	7		I		0
+2	GEEMPRE	121	STATUS_ESOCIAL	Status no eSocial. (1=Aguardando resposta/2=Invalidado/3=Validado/4=Erro estrutural/5=Erro de validação XSD/6=Em Processamento Exclusão/7=Invalidado - Exclusão/8=Erro estrutural - Exclusão/9=Erros de Preenchimento - Exclusão/10=Aguardando Envio Multi	smallint	1	7		I		0
+2	GEEMPRE	122	ENVIAR_ESOCIAL	Enviar para o eSocial. (0=Não/1=Sim)   (ENVIAR_ESOCIAL)	smallint	1	7		I		0
+2	GEEMPRE	123	INCLUSAO_VALIDADA_ESOCIAL	Indica se o registro de inclusão no eSocial já foi validado. (0=Não/1=Sim)   (INCLUSAO_VALIDADA_ESOCIAL)	smallint	1	7		I		0
+2	GEEMPRE	124	GERAR_RETIFICACAO_ESOCIAL	Gerar retificação para o eSocial. (0=Não/1=Sim)   (GERAR_RETIFICACAO_ESOCIAL)	smallint	1	7		I		0

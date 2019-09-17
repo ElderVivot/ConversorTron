@@ -1,0 +1,76 @@
+2	GESOCIOS	1	i_socio	Codigo socio   (i_socio)	integer	1	7		I		0
+2	GESOCIOS	2	nome	Nome   (nome)	char	1	60		I		0
+2	GESOCIOS	3	sexo	Sexo (M - Masculino/F - Feminino)   (sexo)	char	1	1		I		0
+2	GESOCIOS	4	endereco	Endereco   (endereco)	char	1	40		I		0
+2	GESOCIOS	5	bairro	Bairro   (bairro)	char	1	40		I		0
+2	GESOCIOS	6	cidade	Cidade   (cidade)	char	1	40		I		0
+2	GESOCIOS	7	cep	CEP   (cep)	char	1	8		I		0
+2	GESOCIOS	8	numero	Numero   (numero)	integer	1	7		I		0
+2	GESOCIOS	9	uf	UF   (uf)	char	1	2		I		0
+2	GESOCIOS	10	complemento	Complemento   (complemento)	char	1	30		I		0
+2	GESOCIOS	11	tipo_imovel	Tipo do imovel (1 - Proprio Quitado/2 - Proprio Fianciado/3 - Alugado/4 - Familiar/5 - Cedido)   (tipo_imovel)	tinyint	1	3		I		0
+2	GESOCIOS	12	profissao	Profissao   (profissao)	char	1	40		I		0
+2	GESOCIOS	13	pai	Pai   (pai)	char	1	40		I		0
+2	GESOCIOS	14	mae	Mae   (mae)	char	1	40		I		0
+2	GESOCIOS	15	emancipado	Emancipado (S - Sim/N - Nao)   (emancipado)	char	1	1		I		0
+2	GESOCIOS	16	forma_emancipacao	Forma de emancipacao (1 - Casamento/2 - Ato judicial/3 - Concessão dos pais/4 - Colação de grau/5 - Emprego público efetivo/6 - Estabelecimento civil ou comercial/7 - Relação de emprego)   (forma_emancipacao)	tinyint	1	3		I		0
+2	GESOCIOS	17	ddd_fone	DDD   (ddd_fone)	integer	1	7		I		0
+2	GESOCIOS	18	fone_com	Telefone comercial   (fone_com)	char	1	14		I		0
+2	GESOCIOS	19	fone_res	Telefone residencial   (fone_res)	char	1	14		I		0
+2	GESOCIOS	20	fone_cel	Telefone celular   (fone_cel)	char	1	14		I		0
+2	GESOCIOS	21	fone_fax	Telefone fax   (fone_fax)	char	1	14		I		0
+2	GESOCIOS	22	nacionalidade	Nacionalidade   (nacionalidade)	char	1	40		I		0
+2	GESOCIOS	23	naturalidade	Naturalidade   (naturalidade)	char	1	40		I		0
+2	GESOCIOS	24	estado_civil	Estado civil: 1=Solteiro/2=Casado/3=Viúvo/4=Divorciado/5=Concubinato/6=Separado judicialmente/7=União estável)   (estado_civil)	tinyint	1	3		I		0
+2	GESOCIOS	25	regime_casamento	Regime de Casamento (1 - Comunhao Total/2 - Comunhao Parcial/3 - Separacao Total)   (regime_casamento)	tinyint	1	3		I		0
+2	GESOCIOS	26	dtnascimento	Data de nascimento   (dtnascimento)	date	1	10	DD/MM/YYYY	I		0
+2	GESOCIOS	27	tipo_insc	Tipo de inscricao (1 - CNPJ/2 - CPF)   (tipo_insc)	tinyint	1	3		I		0
+2	GESOCIOS	28	inscricao	CPF ou CNPJ   (inscricao)	char	1	14		I		0
+2	GESOCIOS	29	identidade	Identidade   (identidade)	char	1	15		I		0
+2	GESOCIOS	30	orgao_emissor_ident	Orgao emissor   (orgao_emissor_ident)	char	1	14		I		0
+2	GESOCIOS	31	uf_ident	UF identidade   (uf_ident)	char	1	2		I		0
+2	GESOCIOS	32	data_emissao_ident	Data emissao da identidade   (data_emissao_ident)	date	1	10	DD/MM/YYYY	I		0
+2	GESOCIOS	33	cart_reservista	Carteira de reservista   (cart_reservista)	char	1	12		I		0
+2	GESOCIOS	34	cart_ident_profissional	Carteira profisional   (cart_ident_profissional)	char	1	30		I		0
+2	GESOCIOS	35	cart_trabalho	Carteira de trabalho   (cart_trabalho)	char	1	7		I		0
+2	GESOCIOS	36	cart_motorista	Carteira de motorista   (cart_motorista)	char	1	15		I		0
+2	GESOCIOS	37	origem_reg	Origem do registro 0 - Sistema, 1 - Imp. Tabelas, 2 - Imp. Layout   (origem_reg)	tinyint	1	3		I		0
+2	GESOCIOS	38	nome_conjuge	Nome do conjuge   (nome_conjuge)	char	1	40		I		0
+2	GESOCIOS	39	cpf_conjuge	CPF do conjuge   (cpf_conjuge)	char	1	11		I		0
+2	GESOCIOS	40	identidade_conjuge	Identidade do conjuge   (identidade_conjuge)	char	1	15		I		0
+2	GESOCIOS	41	orgao_emissor_conjuge	Orgao emisor do conjuge   (orgao_emissor_conjuge)	char	1	14		I		0
+2	GESOCIOS	42	emissao_ident_conjuge	Data emissao da identidade do conjuge   (emissao_ident_conjuge)	date	1	10	DD/MM/YYYY	I		0
+2	GESOCIOS	43	uf_ident_conjuge	UF identidade do conjuge   (uf_ident_conjuge)	char	1	2		I		0
+2	GESOCIOS	44	dtnascimento_conjuge	Data de nascimento do conjuge   (dtnascimento_conjuge)	date	1	10	DD/MM/YYYY	I		0
+2	GESOCIOS	45	profissao_conjuge	Profissao do conjuge   (profissao_conjuge)	char	1	40		I		0
+2	GESOCIOS	46	renda_conjuge	Renda do conjuge   (renda_conjuge)	numeric	1	13		I		2
+2	GESOCIOS	47	endereco_com	Endereco comercial   (endereco_com)	char	1	40		I		0
+2	GESOCIOS	48	bairro_com	Bairro comercial   (bairro_com)	char	1	40		I		0
+2	GESOCIOS	49	cidade_com	Cidade comercial   (cidade_com)	char	1	40		I		0
+2	GESOCIOS	50	cep_com	CEP   (cep_com)	char	1	8		I		0
+2	GESOCIOS	51	uf_com	UF comercial   (uf_com)	char	1	2		I		0
+2	GESOCIOS	52	complemento_com	Complemento comercial   (complemento_com)	char	1	30		I		0
+2	GESOCIOS	53	numero_com	Numero comercial   (numero_com)	integer	1	7		I		0
+2	GESOCIOS	54	ddd_com	DDD do fone comercial   (ddd_com)	integer	1	7		I		0
+2	GESOCIOS	55	escolaridade	Escolaridade   (escolaridade)	tinyint	1	3		I		0
+2	GESOCIOS	56	formacao_academ	Formacao academica   (formacao_academ)	char	1	30		I		0
+2	GESOCIOS	57	nivel_academ	Nivel academico (1 - Graduacao/ 2 - Pos-Graducao/3 - Mestrado/4 - Doutorado)   (nivel_academ)	tinyint	1	3		I		0
+2	GESOCIOS	58	cnpj_escola	CNPJ da escola   (cnpj_escola)	char	1	14		I		0
+2	GESOCIOS	59	previsao_conclusao	Previsao para conclusao   (previsao_conclusao)	date	1	10	DD/MM/YYYY	I		0
+2	GESOCIOS	60	valor_aluguel_finan	Valor do aluguel/financiamento   (valor_aluguel_finan)	numeric	1	13		I		2
+2	GESOCIOS	61	cartao_credito	Bandeira do cartao de credito   (cartao_credito)	char	1	30		I		0
+2	GESOCIOS	62	plano_saude	Plano de saude   (plano_saude)	char	1	40		I		0
+2	GESOCIOS	63	plano_previdencia	Plano de previdencia   (plano_previdencia)	char	1	40		I		0
+2	GESOCIOS	64	hobby	Hobby   (hobby)	char	1	40		I		0
+2	GESOCIOS	65	recursos_tecnologicos	Recursos tecnologicos   (recursos_tecnologicos)	char	1	40		I		0
+2	GESOCIOS	66	naturalidade_uf	Estado da Naturalidade   (naturalidade_uf)	char	1	2		I		0
+2	GESOCIOS	67	codigo_pais	Codigo pais   (codigo_pais)	integer	1	7		I		0
+2	GESOCIOS	68	CERTIFICADO_DIGITAL	Possui o Certificado digital para assinatura dos atos da Junta Comercial(S/N)   (CERTIFICADO_DIGITAL)	char	1	1		I		0
+2	GESOCIOS	69	TITULO_ELEITORAL	Título Eleitoral   (TITULO_ELEITORAL)	char	1	12		I		0
+2	GESOCIOS	70	ZONA_ELEITORAL	Zona Eleitoral   (ZONA_ELEITORAL)	char	1	3		I		0
+2	GESOCIOS	71	SECAO_ELEITORAL	Secao Eleitoral   (SECAO_ELEITORAL)	char	1	4		I		0
+2	GESOCIOS	72	TITULO_ELEITORAL_CONJUGE	Título Eleitoral do Conjuge   (TITULO_ELEITORAL_CONJUGE)	char	1	12		I		0
+2	GESOCIOS	73	ZONA_ELEITORAL_CONJUGE	Zona Eleitoral do Conjuge   (ZONA_ELEITORAL_CONJUGE)	char	1	3		I		0
+2	GESOCIOS	74	SECAO_ELEITORAL_CONJUGE	Secao Eleitoral do Conjuge   (SECAO_ELEITORAL_CONJUGE)	char	1	4		I		0
+2	GESOCIOS	75	EMAIL	Email   (EMAIL)	char	1	70		I		0
+2	GESOCIOS	76	RESPONSAVEL_LEGAL_EMPRESA_JUNTO_BASE_RFB	É responsável legal da empresa junto as bases da RFB   (RESPONSAVEL_LEGAL_EMPRESA_JUNTO_BASE_RFB)	char	1	1		I		0

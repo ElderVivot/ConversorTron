@@ -1,0 +1,9 @@
+2	FOBANCOS	1	i_bancos	Codigo   (i_bancos)	integer	1	7		I		0
+2	FOBANCOS	2	numero	Numero   (numero)	integer	1	7		I		0
+2	FOBANCOS	3	agencia	Agencia   (agencia)	varchar	1	10		I		0
+2	FOBANCOS	4	dig_agencia	Digito   (dig_agencia)	char	1	1		I		0
+2	FOBANCOS	5	nome	Nome   (nome)	char	1	30		I		0
+2	FOBANCOS	6	praca	Praca   (praca)	char	1	20		I		0
+2	FOBANCOS	7	nome_agencia	Nome agencia   (nome_agencia)	char	1	30		I		0
+2	FOBANCOS	8	modelo_cheque	Modelo cheque   (modelo_cheque)	char	1	80		I		0
+2	FOBANCOS	9	origem_reg	Origem do registro 0=Sistema, 1=Imp. Tabelas, 2=Imp. Layout   (origem_reg)	tinyint	1	3		I		0

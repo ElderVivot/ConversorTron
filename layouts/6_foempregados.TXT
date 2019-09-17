@@ -1,0 +1,340 @@
+2	FOEMPREGADOS	1	codi_emp	Codigo Empresa   (codi_emp)	integer	1	7		I		0
+2	FOEMPREGADOS	2	i_empregados	Codigo   (i_empregados)	integer	1	7		I		0
+2	FOEMPREGADOS	3	i_filiais	Codigo Filial   (i_filiais)	integer	1	7		I		0
+2	FOEMPREGADOS	4	i_horaemp	**SEM USO** Horário   (i_horaemp)	integer	1	7		I		0
+2	FOEMPREGADOS	5	nome	Nome   (nome)	char	1	70		I		0
+2	FOEMPREGADOS	6	paga_contr_sind	Pagou contr. sindical?   (paga_contr_sind)	char	1	1		I		0
+2	FOEMPREGADOS	7	opta_fgts	Optante do FGTS   (opta_fgts)	char	1	1		I		0
+2	FOEMPREGADOS	8	categoria	Categoria   (categoria)	smallint	1	7		I		0
+2	FOEMPREGADOS	9	horas_mes	Horas mes   (horas_mes)	numeric	1	5		I		2
+2	FOEMPREGADOS	10	horas_semana	Horas semana   (horas_semana)	numeric	1	5		I		2
+2	FOEMPREGADOS	11	horas_dia	Horas dia   (horas_dia)	numeric	1	5		I		2
+2	FOEMPREGADOS	12	admissao	Admissao   (admissao)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	13	salario	Salario   (salario)	numeric	1	17		I		6
+2	FOEMPREGADOS	14	endereco	Endereco   (endereco)	varchar	1	50		I		0
+2	FOEMPREGADOS	15	complemento	Complemento   (complemento)	char	1	30		I		0
+2	FOEMPREGADOS	16	cep	CEP   (cep)	char	1	8		I		0
+2	FOEMPREGADOS	17	cidade	Cidade   (cidade)	char	1	25		I		0
+2	FOEMPREGADOS	18	fone	Telefone   (fone)	char	1	15		I		0
+2	FOEMPREGADOS	19	estado	Sigla UF   (estado)	char	1	2		I		0
+2	FOEMPREGADOS	20	data_nascimento	Data nascimento   (data_nascimento)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	21	venc_ferias	vencimento das ferias   (venc_ferias)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	22	i_ccustos	Centro de Custos   (i_ccustos)	integer	1	7		I		0
+2	FOEMPREGADOS	23	forma_pagto	Forma pagamento   (forma_pagto)	char	1	1		I		0
+2	FOEMPREGADOS	24	sexo	Sexo   (sexo)	char	1	1		I		0
+2	FOEMPREGADOS	25	local_nascimento	Local   (local_nascimento)	char	1	40		I		0
+2	FOEMPREGADOS	26	uf_nascimento	UF   (uf_nascimento)	char	1	2		I		0
+2	FOEMPREGADOS	27	estado_civil	Estado civil: S=Solteiro/C=Casado/V=Viúvo/D=Divorciado/O=Concubinato/J=Separado judicialmente/U=União estável)   (estado_civil)	char	1	1		I		0
+2	FOEMPREGADOS	28	nacionalidade	Nacionalidade   (nacionalidade)	integer	1	7		I		0
+2	FOEMPREGADOS	29	ano_chegada	**SEM USO** Ano de chegada   (ano_chegada)	integer	1	7		I		0
+2	FOEMPREGADOS	30	identidade	Identidade   (identidade)	char	1	15		I		0
+2	FOEMPREGADOS	31	naturalizado	Naturalizado   (naturalizado)	char	1	1		I		0
+2	FOEMPREGADOS	32	pis	PIS   (pis)	char	1	11		I		0
+2	FOEMPREGADOS	33	cpf	CPF   (cpf)	char	1	11		I		0
+2	FOEMPREGADOS	34	cart_prof	CTPS   (cart_prof)	varchar	1	11		I		0
+2	FOEMPREGADOS	35	serie_cart_prof	Serie CTPS   (serie_cart_prof)	char	1	5		I		0
+2	FOEMPREGADOS	36	opcao_fgts	Data opcao FGTS   (opcao_fgts)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	37	conta_fgts	Conta FGTS   (conta_fgts)	numeric	1	12		I		0
+2	FOEMPREGADOS	38	num_cart_ponto	Cartao ponto   (num_cart_ponto)	char	1	12		I		0
+2	FOEMPREGADOS	39	venc_exame_medico	Vencto. exame Med.   (venc_exame_medico)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	40	vinculo	Vinculo empregaticio                   (vinculo)	smallint	1	7		I		0
+2	FOEMPREGADOS	41	i_bancos	Banco   (i_bancos)	integer	1	7		I		0
+2	FOEMPREGADOS	42	conta_corr	Conta corrente   (conta_corr)	char	1	15		I		0
+2	FOEMPREGADOS	43	i_cargos	Cargo   (i_cargos)	integer	1	7		I		0
+2	FOEMPREGADOS	44	data_base	Data Vantagem   (data_base)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	45	cart_motorista	Cart. motorista   (cart_motorista)	char	1	15		I		0
+2	FOEMPREGADOS	46	categ_cart_mot	Categoria   (categ_cart_mot)	char	1	3		I		0
+2	FOEMPREGADOS	47	venc_cart_mot	Vencto.   (venc_cart_mot)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	48	data_transf	Data transferencia   (data_transf)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	49	sai_rais	Sai da RAIS   (sai_rais)	char	1	1		I		0
+2	FOEMPREGADOS	50	grau_instrucao	Grau instrucao   (grau_instrucao)	smallint	1	7		I		0
+2	FOEMPREGADOS	51	i_depto	Departamento   (i_depto)	integer	1	7		I		0
+2	FOEMPREGADOS	52	emprego_ant	Tipo de admissão. (1=Admissão/2=Admissão por sucessão, incorporação ou fusão/3=Transferência com ônus/4=Transferência sem ônus/5=Reintegração)   (emprego_ant)	smallint	1	7		I		0
+2	FOEMPREGADOS	53	nome_pai	Nome do pai   (nome_pai)	varchar	1	70		I		0
+2	FOEMPREGADOS	54	nome_mae	Nome da mae   (nome_mae)	varchar	1	70		I		0
+2	FOEMPREGADOS	55	uf_cart_prof	UF   (uf_cart_prof)	char	1	2		I		0
+2	FOEMPREGADOS	56	i_sindicatos	Sindicato   (i_sindicatos)	integer	1	7		I		0
+2	FOEMPREGADOS	57	org_exp_ident	Orgao expedicao   (org_exp_ident)	varchar	1	10		I		0
+2	FOEMPREGADOS	58	uf_exp_ident	UF   (uf_exp_ident)	char	1	2		I		0
+2	FOEMPREGADOS	59	dt_exp_ident	Data   (dt_exp_ident)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	60	dt_exp_cprof	Data de expedicao   (dt_exp_cprof)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	61	tipo_visto_estrangeiro	Tipo de visto de estrangeiro.   (tipo_visto_estrangeiro)	smallint	1	7		I		0
+2	FOEMPREGADOS	62	validade_id_estr	Data de validade da identidade   (validade_id_estr)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	63	validade_ctrab_estr	Data de validade da carteira de trabalho   (validade_ctrab_estr)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	64	grupo_sanguineo	Grupo sang.   (grupo_sanguineo)	char	1	2		I		0
+2	FOEMPREGADOS	65	rh_sanguineo	RH   (rh_sanguineo)	char	1	1		I		0
+2	FOEMPREGADOS	66	nome_conjuge	Nome do conjuge   (nome_conjuge)	char	1	40		I		0
+2	FOEMPREGADOS	67	ultimo_exame_medico	Ult. exame Medico   (ultimo_exame_medico)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	68	i_conselhos	Conselhos   (i_conselhos)	integer	1	7		I		0
+2	FOEMPREGADOS	69	num_reg_cons_reg	No. registro cons. regional   (num_reg_cons_reg)	char	1	8		I		0
+2	FOEMPREGADOS	70	regiao_reg_cons_regional	Regiao do conselho   (regiao_reg_cons_regional)	char	1	8		I		0
+2	FOEMPREGADOS	71	i_estabilidade	Estabilidade   (i_estabilidade)	integer	1	7		I		0
+2	FOEMPREGADOS	72	inicio_estabilidade	Inicio estabilidade   (inicio_estabilidade)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	73	fim_estabilidade	Fim estabilidade   (fim_estabilidade)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	74	i_localtrab	Local trabalho   (i_localtrab)	integer	1	7		I		0
+2	FOEMPREGADOS	75	titulo_eleit	Titulo eleitoral   (titulo_eleit)	char	1	15		I		0
+2	FOEMPREGADOS	76	zona_eleit	Zona eleitoral   (zona_eleit)	char	1	3		I		0
+2	FOEMPREGADOS	77	secao_eleit	Secao   (secao_eleit)	char	1	4		I		0
+2	FOEMPREGADOS	78	dcad_pis	Data de cad. PIS   (dcad_pis)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	79	i_servicos	Servico   (i_servicos)	integer	1	7		I		0
+2	FOEMPREGADOS	80	ini_praz_det	Inicio prazo determinado   (ini_praz_det)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	81	fim_praz_det	Fim prazo determinado   (fim_praz_det)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	82	possui_vinc_out_emp	Multiplos vinculos   (possui_vinc_out_emp)	char	1	1		I		0
+2	FOEMPREGADOS	83	empresa_outro_vinc	Vinculo outra empresa (sem uso)   (empresa_outro_vinc)	integer	1	7		I		0
+2	FOEMPREGADOS	84	codigo_vinc_outra_emp	Cod. vinculo outra empresa (sem uso)   (codigo_vinc_outra_emp)	integer	1	7		I		0
+2	FOEMPREGADOS	85	ult_cont_sind	Data da ultima contribuicao sindical   (ult_cont_sind)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	86	oco_sefip	Ocorrencia SEFIP   (oco_sefip)	integer	1	7		I		0
+2	FOEMPREGADOS	87	cor	Raca/Cor   (cor)	smallint	1	7		I		0
+2	FOEMPREGADOS	88	cart_reservista	Cart. reserv.   (cart_reservista)	char	1	12		I		0
+2	FOEMPREGADOS	89	cate_reservista	Cat.   (cate_reservista)	char	1	5		I		0
+2	FOEMPREGADOS	90	i_niveis	Codigo Nivel   (i_niveis)	integer	1	7		I		0
+2	FOEMPREGADOS	91	i_clasniveis	Classe Nivel   (i_clasniveis)	char	1	1		I		0
+2	FOEMPREGADOS	92	i_refeniveis	Referencia Nivel   (i_refeniveis)	integer	1	7		I		0
+2	FOEMPREGADOS	93	matricula	Matricula   (matricula)	char	1	20		I		0
+2	FOEMPREGADOS	94	deficiente_fisico	Deficiente fisico   (deficiente_fisico)	tinyint	1	3		I		0
+2	FOEMPREGADOS	95	matric_inss	Matricula INSS   (matric_inss)	char	1	11		I		0
+2	FOEMPREGADOS	96	tipo_contrib	tipo_contrib   (tipo_contrib)	char	1	1		I		0
+2	FOEMPREGADOS	97	contrib_indiv	Contribuinte individual   (contrib_indiv)	char	1	1		I		0
+2	FOEMPREGADOS	98	inicio_contribuicao	Inicio contribuicao   (inicio_contribuicao)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	99	classe_atual	Classe de contribuicao   (classe_atual)	integer	1	7		I		0
+2	FOEMPREGADOS	100	data_classe	Inicio de contribuicao na classe   (data_classe)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	101	troca_aut_clas	Troca automatica de classe   (troca_aut_clas)	tinyint	1	3		I		0
+2	FOEMPREGADOS	102	evento_prolabore	Evento   (evento_prolabore)	integer	1	7		I		0
+2	FOEMPREGADOS	103	gps_trimestral	GPS Trimestral   (gps_trimestral)	tinyint	1	3		I		0
+2	FOEMPREGADOS	104	gps_deducao	Deducao na GPS   (gps_deducao)	tinyint	1	3		I		0
+2	FOEMPREGADOS	105	i_contribuintes	Codigo   (i_contribuintes)	integer	1	7		I		0
+2	FOEMPREGADOS	106	tipo_epr	tipo   (tipo_epr)	tinyint	1	3		I		0
+2	FOEMPREGADOS	107	usa_sist	sistemas   (usa_sist)	smallint	1	7		I		0
+2	FOEMPREGADOS	108	tempermuta	Permura de turma   (tempermuta)	tinyint	1	3		I		0
+2	FOEMPREGADOS	109	i_turmas	Turma   (i_turmas)	integer	1	7		I		0
+2	FOEMPREGADOS	110	relogio1	Codigo relogio1   (relogio1)	integer	1	7		I		0
+2	FOEMPREGADOS	111	relogio2	Codigo relogio2   (relogio2)	integer	1	7		I		0
+2	FOEMPREGADOS	112	relogio3	Codigo relogio3   (relogio3)	integer	1	7		I		0
+2	FOEMPREGADOS	113	relogio4	Codigo relogio4   (relogio4)	integer	1	7		I		0
+2	FOEMPREGADOS	114	relogio5	Codigo relogio5   (relogio5)	integer	1	7		I		0
+2	FOEMPREGADOS	115	aco_nao_aut	bater em um relógio não autorizado   (aco_nao_aut)	char	1	1		I		0
+2	FOEMPREGADOS	116	codigo_exportacao	Codigo exportacao para folha   (codigo_exportacao)	integer	1	7		I		0
+2	FOEMPREGADOS	117	transf_codi_emp	Codigo   (transf_codi_emp)	integer	1	7		I		0
+2	FOEMPREGADOS	118	transf_i_empregados	Empregado   (transf_i_empregados)	integer	1	7		I		0
+2	FOEMPREGADOS	119	regime_trabalho	** Sem uso ** Regime trabalho   (regime_trabalho)	integer	1	7		I		0
+2	FOEMPREGADOS	120	pis_domi_banc	Domicilio bancario   (pis_domi_banc)	char	1	40		I		0
+2	FOEMPREGADOS	121	pis_num_banco	Numero banco   (pis_num_banco)	integer	1	7		I		0
+2	FOEMPREGADOS	122	pis_agencia	Agencia PIS   (pis_agencia)	integer	1	7		I		0
+2	FOEMPREGADOS	123	pis_agencia_dv	PIS Digito   (pis_agencia_dv)	char	1	3		I		0
+2	FOEMPREGADOS	124	pis_end_banco	Endereco banco   (pis_end_banco)	char	1	40		I		0
+2	FOEMPREGADOS	125	autoriza_tf	Autorizacao   (autoriza_tf)	char	1	1		I		0
+2	FOEMPREGADOS	126	tipo_valor_tf	Tipo do valor informado   (tipo_valor_tf)	tinyint	1	3		I		0
+2	FOEMPREGADOS	127	valor_tf	Valor Ticket Farma   (valor_tf)	numeric	1	13		I		2
+2	FOEMPREGADOS	128	data_emissao_tf	Data emissao Ticket farma   (data_emissao_tf)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	129	matricula_tf	Matricula   (matricula_tf)	numeric	1	12		I		0
+2	FOEMPREGADOS	130	bairro	Bairro   (bairro)	char	1	40		I		0
+2	FOEMPREGADOS	131	sindicalizado	Sindicalizado   (sindicalizado)	tinyint	1	3		I		0
+2	FOEMPREGADOS	132	numero_end	No.   (numero_end)	integer	1	7		I		0
+2	FOEMPREGADOS	133	imprime_recibo	Emitir Recibo   (imprime_recibo)	tinyint	1	3		I		0
+2	FOEMPREGADOS	134	origem_reg	Origem do registro 0 - Sistema, 1 - Imp. Tabelas, 2 - Imp. Layout, 3- Imp. Tabelas Concorrentes   (origem_reg)	tinyint	1	3		I		0
+2	FOEMPREGADOS	135	fone2	Telefone 2   (fone2)	char	1	15		I		0
+2	FOEMPREGADOS	136	tipo_servico	Tipo de serviço para dedução do IRRF   (tipo_servico)	char	1	1		I		0
+2	FOEMPREGADOS	137	contr_exper	Contrato de Experiência : 0=Não Possui (default) / 1=Possui   (contr_exper)	tinyint	1	3		I		0
+2	FOEMPREGADOS	138	pro_praz_det	Prorrogação do prazo determinado   (pro_praz_det)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	139	contr_sobre_sal_min	Calcular contribuição fixa sobre 1 salário mínimo: (0=Não/1=Sim)   (contr_sobre_sal_min)	tinyint	1	3		I		0
+2	FOEMPREGADOS	140	contr_sobre_sal_min_data	Início do cálculo da contribuição fixa sobre 1 salário mínimo   (contr_sobre_sal_min_data)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	141	simples_072007	Atividade para o simples nacional   (simples_072007)	tinyint	1	3		I		0
+2	FOEMPREGADOS	142	DATA_CALC_AFASTAMENTOS	DATA PARA CALCULAR OS AFASTAMENTOS POR COMPETENCIA   (DATA_CALC_AFASTAMENTOS)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	143	I_AFASTAMENTOS	CODIGO DO AFASTAMENTO DA ULTIMA SITUACAO DO EMPREGADO   (I_AFASTAMENTOS)	integer	1	7		I		0
+2	FOEMPREGADOS	144	ALVARA_JUDICIAL	ALVARA JUDICIAL USADO NA RAIS PARA CELETISTAS MENORES DE 16 ANOS (0=NAO, 1=SIM, 2=NAO INFORMADO)   (ALVARA_JUDICIAL)	smallint	1	7		I		0
+2	FOEMPREGADOS	145	I_OPERADORAPLANOSAUDE	** SEM USO ** Código da operadora de plano de saúde   (I_OPERADORAPLANOSAUDE)	integer	1	7		I		0
+2	FOEMPREGADOS	146	PLANO_SAUDE_OPTANTES	** SEM USO ** Optante plano de saúde: 0=Não optante/1=Somente titular/2=Titular e dependentes 3 Somente dependentes   (PLANO_SAUDE_OPTANTES)	smallint	1	7		I		0
+2	FOEMPREGADOS	147	OPCAO_PLANO_SAUDE	Optante plano de saúde: 0=Não/1=Sim   (OPCAO_PLANO_SAUDE)	smallint	1	7		I		0
+2	FOEMPREGADOS	148	TIPO_CLA_ASSEC_DIR_REC_RES_ANT	Cláusula assecuratória de direito recíproco de rescisão antecipada (1=Contrato de trabalho regido pelo art. 479/480 CLT ou sem cláusula assecuratória/2=Contrato de trabalho regido pelo art. 481 CLT)   (TIPO_CLA_ASSEC_DIR_REC_RES_ANT)	smallint	1	7		I		0
+2	FOEMPREGADOS	149	TIPO_CONTA	Tipo de Conta: (1=Não informada/2=Conta corrente/3=Conta salário/4=Conta poupança/5=Conta fácil)   (TIPO_CONTA)	smallint	1	7		I		0
+2	FOEMPREGADOS	150	DATA_REINTEGRACAO	Data de reintegração   (DATA_REINTEGRACAO)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	151	TIPO_INSCRICAO_FILIAL_ORIGEM	Tipo de inscrição da filial de origem: (1=CNPJ/2=CPF/3=CEI)   (TIPO_INSCRICAO_FILIAL_ORIGEM)	smallint	1	7		I		0
+2	FOEMPREGADOS	152	INSCRICAO_FILIAL_ORIGEM	Inscrição da filial de origem   (INSCRICAO_FILIAL_ORIGEM)	char	1	14		I		0
+2	FOEMPREGADOS	153	MATRICULA_ORIGEM	Matrícula na empresa origem   (MATRICULA_ORIGEM)	char	1	20		I		0
+2	FOEMPREGADOS	154	NOME_EMPRESA_ORIGEM	Nome da empresa de origem   (NOME_EMPRESA_ORIGEM)	char	1	40		I		0
+2	FOEMPREGADOS	155	EMAIL	E-mail   (EMAIL)	char	1	60		I		0
+2	FOEMPREGADOS	156	NUMERO_PROCESSO_MTE	Número processo MTE   (NUMERO_PROCESSO_MTE)	char	1	30		I		0
+2	FOEMPREGADOS	157	DATA_CHEGADA	Data da chegada   (DATA_CHEGADA)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	158	DATA_NATURALIZACAO	Data da naturalização   (DATA_NATURALIZACAO)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	159	CASADO_BRASILEIRO	Casado com brasileiro: (0=Não/1=Sim)   (CASADO_BRASILEIRO)	smallint	1	7		I		0
+2	FOEMPREGADOS	160	FILHOS_BRASILEIRO	Filhos com brasileiro: (0=Não/1=Sim)   (FILHOS_BRASILEIRO)	smallint	1	7		I		0
+2	FOEMPREGADOS	161	NIF	Número de identificação fiscal (NIF)   (NIF)	char	1	30		I		0
+2	FOEMPREGADOS	162	NUMERO_RIC	Número RIC   (NUMERO_RIC)	char	1	15		I		0
+2	FOEMPREGADOS	163	ORGAO_EMISSOR_RIC	Orgão emissor RIC   (ORGAO_EMISSOR_RIC)	char	1	8		I		0
+2	FOEMPREGADOS	164	LOCAL_RIC	Local RIC   (LOCAL_RIC)	char	1	40		I		0
+2	FOEMPREGADOS	165	DATA_EXPEDICAO_RIC	Data expedição RIC   (DATA_EXPEDICAO_RIC)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	166	DATA_VALIDADE_RIC	Data validade RIC   (DATA_VALIDADE_RIC)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	167	DIGITO_CONTA_PAGAMENTO	Dígito da conta de pagamento   (DIGITO_CONTA_PAGAMENTO)	char	1	2		I		0
+2	FOEMPREGADOS	168	RESIDENTE_EXTERIOR	Residente ou domiciliado no exterior: (0=Não/1=Sim)   (RESIDENTE_EXTERIOR)	smallint	1	7		I		0
+2	FOEMPREGADOS	169	TIPO_ENDERECO	Tipo de endereço.   (TIPO_ENDERECO)	smallint	1	7		I		0
+2	FOEMPREGADOS	170	MUNICIPIO_ENDERECO	Código do município do endereço   (MUNICIPIO_ENDERECO)	integer	1	7		I		0
+2	FOEMPREGADOS	171	MUNICIPIO_NASCIMENTO	Código do município do local de nascimento   (MUNICIPIO_NASCIMENTO)	integer	1	7		I		0
+2	FOEMPREGADOS	172	PAIS_ENDERECO	Código do país do endereço   (PAIS_ENDERECO)	integer	1	7		I		0
+2	FOEMPREGADOS	173	PAIS_NASCIMENTO	Código do país de nascimento   (PAIS_NASCIMENTO)	integer	1	7		I		0
+2	FOEMPREGADOS	174	BENEFICIADO_PAT	Beneficiado pelo PAT: (0=Não/1=Sim)   (BENEFICIADO_PAT)	smallint	1	7		I		0
+2	FOEMPREGADOS	175	CONTR_SOBRE_SAL_MIN_TIPO	Tipo de cálculo da contribuição fixa sobre 1 salário mínimo: (1=Alíquota 11%/2=Alíquota 5%)   (CONTR_SOBRE_SAL_MIN_TIPO)	smallint	1	7		I		0
+2	FOEMPREGADOS	176	GPS_CONJUNTA_NOVEMBRO_13_INTEGRAL	Recolher a competência de novembro e 13º integral em uma única GPS.(0-Não/1-Sim)   (GPS_CONJUNTA_NOVEMBRO_13_INTEGRAL)	smallint	1	7		I		0
+2	FOEMPREGADOS	177	GPS_CONJUNTA_NOVEMBRO_13_INTEGRAL_INICIO	Início do recolhimento da competência de novembro e 13º integral em uma única GPS.   (GPS_CONJUNTA_NOVEMBRO_13_INTEGRAL_INICIO)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	178	BENEFICIADO_PAT_SERVICO_PROPRIO	Beneficiado pelo PAT por serviço próprio. (0=Não/1=Sim)   (BENEFICIADO_PAT_SERVICO_PROPRIO)	smallint	1	7		I		0
+2	FOEMPREGADOS	179	BENEFICIADO_PAT_ADMINISTRACAO_COZINHAS	Beneficiado pelo PAT por administração de cozinhas. (0=Não/1=Sim)   (BENEFICIADO_PAT_ADMINISTRACAO_COZINHAS)	smallint	1	7		I		0
+2	FOEMPREGADOS	180	BENEFICIADO_PAT_REFEICAO_CONVENIO	Beneficiado pelo PAT por convênio de refeição. (0=Não/1=Sim)   (BENEFICIADO_PAT_REFEICAO_CONVENIO)	smallint	1	7		I		0
+2	FOEMPREGADOS	181	BENEFICIADO_PAT_REFEICOES_TRANSPORTADAS	Beneficiado pelo PAT por transporte de refeição. (0=Não/1=Sim)   (BENEFICIADO_PAT_REFEICOES_TRANSPORTADAS)	smallint	1	7		I		0
+2	FOEMPREGADOS	182	BENEFICIADO_PAT_CESTA_ALIMENTOS	Beneficiado pelo PAT por cesta de alimentos. (0=Não/1=Sim)   (BENEFICIADO_PAT_CESTA_ALIMENTOS)	smallint	1	7		I		0
+2	FOEMPREGADOS	183	BENEFICIADO_PAT_ALIMENTACAO_CONVENIO	Beneficiado pelo PAT por convênio de alimentação. (0=Não/1=Sim)   (BENEFICIADO_PAT_ALIMENTACAO_CONVENIO)	smallint	1	7		I		0
+2	FOEMPREGADOS	184	ATIVIDADE_CONTA_PROPRIA_RURAL	Atividade por conta própria - Rural: (0=Não/1=Sim)   (ATIVIDADE_CONTA_PROPRIA_RURAL)	smallint	1	7		I		0
+2	FOEMPREGADOS	185	NUMERO_PASSAPORTE	Número do passaporte.   (NUMERO_PASSAPORTE)	varchar	1	20		I		0
+2	FOEMPREGADOS	186	EMISSOR_PASSAPORTE	Emissor do passaporte.   (EMISSOR_PASSAPORTE)	smallint	1	7		I		0
+2	FOEMPREGADOS	187	UF_PASSAPORTE	UF do passaporte.   (UF_PASSAPORTE)	char	1	2		I		0
+2	FOEMPREGADOS	188	DATA_EMISSAO_PASSAPORTE	Data de emissão do passaporte.   (DATA_EMISSAO_PASSAPORTE)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	189	DATA_VALIDADE_PASSAPORTE	Data de validade do passaporte.   (DATA_VALIDADE_PASSAPORTE)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	190	PAIS_PASSAPORTE	Código do país do passaporte.   (PAIS_PASSAPORTE)	integer	1	7		I		0
+2	FOEMPREGADOS	191	TIPO_INDICATIVO_ADMISSAO	Tipo de indicativo da admissão. (1=1º emprego/2=Normal/3=Decorrente de ação fiscal/4=Decorrente de decisão judicial/5=Decorrente de Anistia Legal)   (TIPO_INDICATIVO_ADMISSAO)	smallint	1	7		I		0
+2	FOEMPREGADOS	192	NOME_MUNICIPIO_RESIDENTE_EXTERIOR	Nome do município para residente no exterior.   (NOME_MUNICIPIO_RESIDENTE_EXTERIOR)	varchar	1	255		I		0
+2	FOEMPREGADOS	193	PAIS_NACIONALIDADE	Código do país da nacionalidade.   (PAIS_NACIONALIDADE)	integer	1	7		I		0
+2	FOEMPREGADOS	194	DATA_EXPEDICAO_CNH	Data de expedição da carteira de motorista.   (DATA_EXPEDICAO_CNH)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	195	ORGAO_EMISSOR_CNH	Orgão emissor da carteira de motorista.   (ORGAO_EMISSOR_CNH)	varchar	1	20		I		0
+2	FOEMPREGADOS	196	CODIGO_POSTAL	Código postal.   (CODIGO_POSTAL)	varchar	1	10		I		0
+2	FOEMPREGADOS	197	RESIDENCIA_PROPRIA	Possui residência própria. (0=Não/1=Sim)   (RESIDENCIA_PROPRIA)	smallint	1	7		I		0
+2	FOEMPREGADOS	198	IMOVEL_ADQUIRIDO_RECURSOS_FGTS	Adquiriu imóvel com recursos do FGTS. (0=Não/1=Sim)   (IMOVEL_ADQUIRIDO_RECURSOS_FGTS)	smallint	1	7		I		0
+2	FOEMPREGADOS	199	EMAIL_ALTERNATIVO	E-mail alternativo.   (EMAIL_ALTERNATIVO)	varchar	1	60		I		0
+2	FOEMPREGADOS	200	TIPO_PROCESSO_ALVARA	Tipo de processo do alvará. (1=Judicial/2=Administrativo)   (TIPO_PROCESSO_ALVARA)	smallint	1	7		I		0
+2	FOEMPREGADOS	201	AUTORIA_ALVARA	Autoria do alvará. (1=Própria/2=Outra entidade)   (AUTORIA_ALVARA)	smallint	1	7		I		0
+2	FOEMPREGADOS	202	NUMERO_ALVARA	Número do alvará.   (NUMERO_ALVARA)	varchar	1	20		I		0
+2	FOEMPREGADOS	203	INDICATIVO_DECISAO_ALVARA	Indicativo de decisão do alvará. (1=Definitiva (Transitada em Julgado)/2=Decisão não Transitada em Julgado com Efeito Suspensivo/3=Liminar em Mandado de Segurança/4=Liminar ou tutela antecipada, em outras espécies de ação judicial/5=Contestação Admin	smallint	1	7		I		0
+2	FOEMPREGADOS	204	DATA_DECISAO_ALVARA	Data de decisão do alvará.   (DATA_DECISAO_ALVARA)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	205	MONTANTE_INTEGRAL_DEPOSITADO_ALVARA	Montante integral do alvará depositado. (0=Não/1=Sim)   (MONTANTE_INTEGRAL_DEPOSITADO_ALVARA)	smallint	1	7		I		0
+2	FOEMPREGADOS	206	INICIO_VIGENCIA_ALVARA	Inicío da vigência do alvará.   (INICIO_VIGENCIA_ALVARA)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	207	FIM_VIGENCIA_ALVARA	Fim da vigência do alvará.   (FIM_VIGENCIA_ALVARA)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	208	IDENTIFICACAO_ALVARA	Identificação do alvará.   (IDENTIFICACAO_ALVARA)	varchar	1	2		I		0
+2	FOEMPREGADOS	209	CODIGO_MUNICIPIO_ALVARA	Código do município do alvará.   (CODIGO_MUNICIPIO_ALVARA)	integer	1	7		I		0
+2	FOEMPREGADOS	210	POSSUI_DEFICIENCIA	Possui deficiência. (0=Não/1=Sim)   (POSSUI_DEFICIENCIA)	smallint	1	7		I		0
+2	FOEMPREGADOS	211	POSSUI_DEFICIENCIA_MOTORA	Possui deficiência motora. (0=Não/1=Sim)   (POSSUI_DEFICIENCIA_MOTORA)	smallint	1	7		I		0
+2	FOEMPREGADOS	212	POSSUI_DEFICIENCIA_VISUAL	Possui deficiência visual. (0=Não/1=Sim)   (POSSUI_DEFICIENCIA_VISUAL)	smallint	1	7		I		0
+2	FOEMPREGADOS	213	POSSUI_DEFICIENCIA_AUDITIVA	Possui deficiência auditiva. (0=Não/1=Sim)   (POSSUI_DEFICIENCIA_AUDITIVA)	smallint	1	7		I		0
+2	FOEMPREGADOS	214	POSSUI_DEFICIENCIA_OUTRAS	Possui outras deficiências. (0=Não/1=Sim)   (POSSUI_DEFICIENCIA_OUTRAS)	smallint	1	7		I		0
+2	FOEMPREGADOS	215	POSSUI_DEFICIENCIA_REABILITADO	Possui deficiência reabilitado. (0=Não/1=Sim)   (POSSUI_DEFICIENCIA_REABILITADO)	smallint	1	7		I		0
+2	FOEMPREGADOS	216	OBSERVACAO_DEFICIENCIA	Observação sobre a deficiência.   (OBSERVACAO_DEFICIENCIA)	varchar	1	255		I		0
+2	FOEMPREGADOS	217	I_FUNCAO	Código da função.   (I_FUNCAO)	integer	1	7		I		0
+2	FOEMPREGADOS	218	NUMERO_RNE	Número do registro nacional de estrangeiros.   (NUMERO_RNE)	varchar	1	15		I		0
+2	FOEMPREGADOS	219	DATA_EXPEDICAO_RNE	Data de expedição do registro nacional de estrangeiros.   (DATA_EXPEDICAO_RNE)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	220	ORGAO_EMISSOR_RNE	Orgão emissor do registro nacional de estrangeiros.   (ORGAO_EMISSOR_RNE)	varchar	1	20		I		0
+2	FOEMPREGADOS	221	ENDERECO_COMERCIAL	Endereço comercial. (0=Não/1=Sim)   (ENDERECO_COMERCIAL)	smallint	1	7		I		0
+2	FOEMPREGADOS	222	I_PROCESSO	Código do processo.   (I_PROCESSO)	integer	1	7		I		0
+2	FOEMPREGADOS	223	CODIGO_SCE_DOMINIO_ATENDIMENTO	Código da solicitação de cadastro de empregado do Domínio Atendimento.   (CODIGO_SCE_DOMINIO_ATENDIMENTO)	integer	1	7		I		0
+2	FOEMPREGADOS	224	I_INSTITUICAO_ENSINO	Código da instituição de ensino do estagiário.   (I_INSTITUICAO_ENSINO)	integer	1	7		I		0
+2	FOEMPREGADOS	225	I_AGENTES_INTEGRACAO	Código do agente de integração do estagiário.   (I_AGENTES_INTEGRACAO)	integer	1	7		I		0
+2	FOEMPREGADOS	226	I_COORDENADOR_ESTAGIO	Código do coordenador de estágio do estagiário.   (I_COORDENADOR_ESTAGIO)	integer	1	7		I		0
+2	FOEMPREGADOS	227	AREA_ATUACAO_ESTAGIARIO	Área de atuação do estagiário.   (AREA_ATUACAO_ESTAGIARIO)	varchar	1	50		I		0
+2	FOEMPREGADOS	228	NATUREZA_ESTAGIO	Natureza do estágio. (0=Não obrigatório/1=Obrigatório)   (NATUREZA_ESTAGIO)	smallint	1	7		I		0
+2	FOEMPREGADOS	229	NIVEL_ESTAGIO	Nível do estágio. (1=Fundamental/2=Médio/3=Formação profissional/4=Superior/5=Especial/6=Mãe social (Lei 7644, de 1987))   (NIVEL_ESTAGIO)	smallint	1	7		I		0
+2	FOEMPREGADOS	230	APOLICE_SEGURO_ESTAGIARIO	Apólice de seguro do estagiário.   (APOLICE_SEGURO_ESTAGIARIO)	varchar	1	30		I		0
+2	FOEMPREGADOS	231	POSSUI_DEFICIENCIA_MENTAL	Possui deficiência mental. (0=Não/1=Sim)   (POSSUI_DEFICIENCIA_MENTAL)	smallint	1	7		I		0
+2	FOEMPREGADOS	232	I_JORNADA	Código da jornada.   (I_JORNADA)	integer	1	7		I		0
+2	FOEMPREGADOS	233	SITUACAO_QUALIFICACAO_CADASTRAL_INSS_RECEITA_FEDER	Situação da qualificação cadastral para o INSS e a Receita Federal. (0=Não qualificado/1=Qualificado)   (SITUACAO_QUALIFICACAO_CADASTRAL_INSS_RECEITA_FEDERAL)	smallint	1	7		I		0
+2	FOEMPREGADOS	234	CAIXA_POSTAL	Caixa postal.   (CAIXA_POSTAL)	varchar	1	10		I		0
+2	FOEMPREGADOS	235	CEP_CAIXA_POSTAL	CEP da caixa postal.   (CEP_CAIXA_POSTAL)	varchar	1	8		I		0
+2	FOEMPREGADOS	236	MOTIVO_CONTRATACAO_TRABALHO_TEMPORARIO	** SEM USO **   (MOTIVO_CONTRATACAO_TRABALHO_TEMPORARIO)	smallint	1	7		I		0
+2	FOEMPREGADOS	237	NOME_TRABALHADOR_SUBSTITUIDO_TRABALHO_TEMPORARIO	** SEM USO **   (NOME_TRABALHADOR_SUBSTITUIDO_TRABALHO_TEMPORARIO)	varchar	1	100		I		0
+2	FOEMPREGADOS	238	CPF_TRABALHADOR_SUBSTITUIDO_TRABALHO_TEMPORARIO	** SEM USO **   (CPF_TRABALHADOR_SUBSTITUIDO_TRABALHO_TEMPORARIO)	varchar	1	11		I		0
+2	FOEMPREGADOS	239	MATRICULA_TRABALHADOR_SUBSTITUIDO_TRABALHO_TEMPORA	** SEM USO **   (MATRICULA_TRABALHADOR_SUBSTITUIDO_TRABALHO_TEMPORARIO)	varchar	1	30		I		0
+2	FOEMPREGADOS	240	TIPO_HORARIO	Tipo de horário. (1=Submetidos a Horário de Trabalho (Cap. II da CLT)/2=Atividade Externa especificada no Inciso I do Art. 62 da CLT/3=Funções especificadas no Inciso II do Art. 62 da CLT/4=Horário de Motorista inciso V do Art 2 Lei 12619/2012/5=Horá	smallint	1	7		I		0
+2	FOEMPREGADOS	241	CODIGO_ESOCIAL	Código no eSocial.   (CODIGO_ESOCIAL)	varchar	1	30		I		0
+2	FOEMPREGADOS	242	I_REMUNERACAO_VARIAVEL	Código da remuneração variável.   (I_REMUNERACAO_VARIAVEL)	integer	1	7		I		0
+2	FOEMPREGADOS	243	I_PROCESSO_REINTEGRACAO	Coluna sem uso - retirada na SAI 50872   (I_PROCESSO_REINTEGRACAO)	integer	1	7		I		0
+2	FOEMPREGADOS	244	POSSUI_REDUCAO_ALIQUOTA_INSS	Possui redução na alíquota de INSS. (0=Não/1=Sim)   (POSSUI_REDUCAO_ALIQUOTA_INSS)	smallint	1	7		I		0
+2	FOEMPREGADOS	245	POSSUI_REDUCAO_ALIQUOTA_INSS_COMPETENCIA	Competência da redução na alíquota de INSS.   (POSSUI_REDUCAO_ALIQUOTA_INSS_COMPETENCIA)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	246	QUANTIDADE_DIAS_CONTRATO_EXPERIENCIA	Quantidade de dias do contrato de experiência.   (QUANTIDADE_DIAS_CONTRATO_EXPERIENCIA)	integer	1	7		I		0
+2	FOEMPREGADOS	247	QUANTIDADE_DIAS_PRORROGACAO_CONTRATO_EXPERIENCIA	Quantidade de dias da prorrogação do contrato de experiência.   (QUANTIDADE_DIAS_PRORROGACAO_CONTRATO_EXPERIENCIA)	integer	1	7		I		0
+2	FOEMPREGADOS	248	RECEBIA_SEGURO_DESEMPREGO	Recebia seguro desemprego. (0=Nenhum requerimento encontrado/1=Notificado - Parcela a Emitir/2=Notificado - Parcela Emitida/3=Notificado - Seguro Completo/4=Notificado - Mais de XX anos da Data de Demissão/Suspensão/5=Notificado - A restituir parcela	smallint	1	7		I		0
+2	FOEMPREGADOS	249	NATUREZA_TRABALHO_AUTONOMO	Natureza trabalho autônomo. (1=Rural/2=Urbano)   (NATUREZA_TRABALHO_AUTONOMO)	smallint	1	7		I		0
+2	FOEMPREGADOS	250	DDD_FONE	DDD do telefone 1.   (DDD_FONE)	varchar	1	3		I		0
+2	FOEMPREGADOS	251	DDD_FONE2	DDD do contato 1.   (DDD_FONE2)	varchar	1	3		I		0
+2	FOEMPREGADOS	252	DDD_CELULAR	DDD do celular.   (DDD_CELULAR)	varchar	1	3		I		0
+2	FOEMPREGADOS	253	CELULAR	Número do celular.   (CELULAR)	varchar	1	11		I		0
+2	FOEMPREGADOS	254	DDD_CONTATO_2	DDD do contato 2.   (DDD_CONTATO_2)	varchar	1	3		I		0
+2	FOEMPREGADOS	255	CONTATO_2	Número do contato 2.   (CONTATO_2)	varchar	1	11		I		0
+2	FOEMPREGADOS	256	INSCRICAO_MUNICIPAL_AUTONOMO	Inscrição municipal de autônomo.   (INSCRICAO_MUNICIPAL_AUTONOMO)	varchar	1	20		I		0
+2	FOEMPREGADOS	257	REGIME_CASAMENTO	Regime de casamento. (0=Nenhum/1=Comunhão parcial de bens/2=Comunhão total de bens/3=Separação total de bens)   (REGIME_CASAMENTO)	smallint	1	7		I		0
+2	FOEMPREGADOS	258	DIRIGENTE_SINDICAL	Dirigente sindical. (0=Não /1=Sim)   (DIRIGENTE_SINDICAL)	smallint	1	7		I		0
+2	FOEMPREGADOS	259	CNPJ_EMPRESA_ORIGEM_DIRIGENTE_SINDICAL	CNPJ da empresa origem do dirigente sindical.   (CNPJ_EMPRESA_ORIGEM_DIRIGENTE_SINDICAL)	varchar	1	14		I		0
+2	FOEMPREGADOS	260	NOME_EMPRESA_ORIGEM_DIRIGENTE_SINDICAL	Nome da empresa origem do dirigente sindical.   (NOME_EMPRESA_ORIGEM_DIRIGENTE_SINDICAL)	varchar	1	100		I		0
+2	FOEMPREGADOS	261	CATEGORIA_ORIGEM_DIRIGENTE_SINDICAL	Categoria origem do dirigente sindical.   (CATEGORIA_ORIGEM_DIRIGENTE_SINDICAL)	integer	1	7		I		0
+2	FOEMPREGADOS	262	DATA_ADMISSAO_EMPRESA_ORIGEM_DIRIGENTE_SINDICAL	Data de admissão na empresa origem do dirigente sindical.   (DATA_ADMISSAO_EMPRESA_ORIGEM_DIRIGENTE_SINDICAL)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	263	MATRICULA_EMPRESA_ORIGEM_DIRIGENTE_SINDICAL	Matrícula na empresa origem do dirigente sindical.   (MATRICULA_EMPRESA_ORIGEM_DIRIGENTE_SINDICAL)	varchar	1	30		I		0
+2	FOEMPREGADOS	264	RESPONSAVEL_REMUNERACAO_DIRIGENTE_SINDICAL	Responsável pela remuneração do dirigente sindical. (1=Sindicao/2=Sindicato e Empresa origem)   (RESPONSAVEL_REMUNERACAO_DIRIGENTE_SINDICAL)	smallint	1	7		I		0
+2	FOEMPREGADOS	265	TIPO_REMUNERACAO_DIRIGENTE_SINDICAL	Tipo de remuneração do dirigente sindical. (1=Igual ao valor da empresa origem/2=Superior ao valor da empresa origem)   (TIPO_REMUNERACAO_DIRIGENTE_SINDICAL)	smallint	1	7		I		0
+2	FOEMPREGADOS	266	DATA_INICIO_PAGAMENTO_ADICIONAL_DIRIGENTE_SINDICAL	Data de início do pagamento do adicional para o dirigente sindical.   (DATA_INICIO_PAGAMENTO_ADICIONAL_DIRIGENTE_SINDICAL)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	267	REMUNERACAO_SINDICATO_DIRIGENTE_SINDICAL	Remuneração do sindicato do dirigente sindical.   (REMUNERACAO_SINDICATO_DIRIGENTE_SINDICAL)	numeric	1	17		I		6
+2	FOEMPREGADOS	268	REMUNERACAO_EMPRESA_DIRIGENTE_SINDICAL	Remuneração da empresa do dirigente sindical.   (REMUNERACAO_EMPRESA_DIRIGENTE_SINDICAL)	numeric	1	17		I		6
+2	FOEMPREGADOS	269	ORGAO_EXPEDICAO_RG	Orgão de expedição da RG.   (ORGAO_EXPEDICAO_RG)	smallint	1	7		I		0
+2	FOEMPREGADOS	270	FORMA_CALCULO	Forma de pagamento. (1=Por mês/2=Por semana)   (FORMA_CALCULO)	smallint	1	7		I		0
+2	FOEMPREGADOS	271	USA_SALARIO_MINIMO_ESTADUAL	Usa salário mínimo estadual. (0=Não/1=Sim)   (USA_SALARIO_MINIMO_ESTADUAL)	smallint	1	7		I		0
+2	FOEMPREGADOS	272	I_TABCALC_SALARIO_MINIMO_ESTADUAL	Código sequencial da tabela de salário mínimo estadual.   (I_TABCALC_SALARIO_MINIMO_ESTADUAL)	integer	1	7		I		0
+2	FOEMPREGADOS	273	I_CATEGORIA_SALARIO_MINIMO_ESTADUAL	Código da categoria da tabela de salário mínimo estadual.   (I_CATEGORIA_SALARIO_MINIMO_ESTADUAL)	integer	1	7		I		0
+2	FOEMPREGADOS	274	EMPRESA_ORIGEM_DESONERADA	Empresa origem desonerada. (0=NÃ£o/1=Sim)   (EMPRESA_ORIGEM_DESONERADA)	smallint	1	7		I		0
+2	FOEMPREGADOS	275	REMUNERACAO_PERIODO_DESLIGAMENTO_REINTEGRACAO_PAGA	RemuneraÃ§Ãµes e respectivas contribuiÃ§Ãµes referentes ao perÃ­odo entre o desligamento e a reintegraÃ§Ã£o pagas em juÃ­zo. (0=NÃ£o/1=Sim)   (REMUNERACAO_PERIODO_DESLIGAMENTO_REINTEGRACAO_PAGAS_JUIZO)	smallint	1	7		I		0
+2	FOEMPREGADOS	276	CODIGO_MUNICIPIO_RIC	Código do município do RIC.   (CODIGO_MUNICIPIO_RIC)	integer	1	7		I		0
+2	FOEMPREGADOS	277	CODIGO_UF_CARTEIRA_MOTORISTA	UF da carteira de motorista.   (CODIGO_UF_CARTEIRA_MOTORISTA)	integer	1	7		I		0
+2	FOEMPREGADOS	278	DATA_PRIMEIRA_HABILITACAO_CARTEIRA_MOTORISTA	Data da primeira habilitação.   (DATA_PRIMEIRA_HABILITACAO_CARTEIRA_MOTORISTA)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	279	BRASILEIRO_NASCIDO_EXTERIOR	Brasileiro nascido no exterior. (0=Não/1=Sim)   (BRASILEIRO_NASCIDO_EXTERIOR)	smallint	1	7		I		0
+2	FOEMPREGADOS	280	CALCULAR_INSS_PATRONAL	Calcular INSS Patronal. (0=Não/1=Sim)   (CALCULAR_INSS_PATRONAL)	smallint	1	7		I		0
+2	FOEMPREGADOS	281	CARGA_HORARIA_VARIAVEL	Carga horária variável. (0=Não/1=Sim)   (CARGA_HORARIA_VARIAVEL)	smallint	1	7		I		0
+2	FOEMPREGADOS	282	DATA_OPERACAO_CONECTIVIDADE_SOCIAL	Data da operação para conectividade social.   (DATA_OPERACAO_CONECTIVIDADE_SOCIAL)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	283	CHAVE_IDENTIFICACAO_CONECTIVIDADE_SOCIAL	Chave de identificação para conectividade social.   (CHAVE_IDENTIFICACAO_CONECTIVIDADE_SOCIAL)	varchar	1	40		I		0
+2	FOEMPREGADOS	284	DATA_REAL_DN_AFASTAMENTO_DA	Data real do ultimo afastamento sincronizado com o D.A.   (DATA_REAL_DN_AFASTAMENTO_DA)	decimal	1	13		I		2
+2	FOEMPREGADOS	285	CALCULAR_ADIANTAMENTO_SALARIAL	Calcular adiantamento salarial. (0=NÃ£o/1=Sim)   (CALCULAR_ADIANTAMENTO_SALARIAL)	smallint	1	7		I		0
+2	FOEMPREGADOS	286	CALCULO_ADIANTAMENTO_SALARIAL_PERCENTUAL	Percentual para o cÃ¡lculo do adiantamento salarial.   (CALCULO_ADIANTAMENTO_SALARIAL_PERCENTUAL)	numeric	1	5		I		2
+2	FOEMPREGADOS	287	TIPO_INSCRICAO_EMPRESA_ORIGEM_DIRIGENTE_SINDICAL	Tipo de inscrição da empresa origem do dirigente sindical. (1=CNPJ/3=CEI)   (TIPO_INSCRICAO_EMPRESA_ORIGEM_DIRIGENTE_SINDICAL)	smallint	1	7		I		0
+2	FOEMPREGADOS	288	UF_BASE_CONTA_FGTS	Base da conta do FGTS.   (UF_BASE_CONTA_FGTS)	integer	1	7		I		0
+2	FOEMPREGADOS	289	HORAS_COMPENSADAS	Horas compensadas no sábado.   (HORAS_COMPENSADAS)	numeric	1	5		I		2
+2	FOEMPREGADOS	290	NUMERO_LIVRO_REGISTRO	Número do livro de registro.   (NUMERO_LIVRO_REGISTRO)	varchar	1	6		I		0
+2	FOEMPREGADOS	291	NUMERO_FOLHA_LIVRO_REGISTRO	Número da folha do livro de registro.   (NUMERO_FOLHA_LIVRO_REGISTRO)	varchar	1	6		I		0
+2	FOEMPREGADOS	292	NOME_SOCIAL	Nome social.   (NOME_SOCIAL)	varchar	1	70		I		0
+2	FOEMPREGADOS	293	APOSENTADO	Aposentado. (0=Não/1=Sim)   (APOSENTADO)	smallint	1	7		I		0
+2	FOEMPREGADOS	294	POSSUI_DEFICIENCIA_INTELECTUAL	Possui deficiência intelectual. (0=Não/1=Sim)   (POSSUI_DEFICIENCIA_INTELECTUAL)	smallint	1	7		I		0
+2	FOEMPREGADOS	295	COTA_DIFICIENTE	Cota de deficiente. (0=Não/1=Sim)   (COTA_DIFICIENTE)	smallint	1	7		I		0
+2	FOEMPREGADOS	296	I_SUPERVISOR_ESTAGIO	Supervisor de estágio.   (I_SUPERVISOR_ESTAGIO)	integer	1	7		I		0
+2	FOEMPREGADOS	297	MOTIVO_PRORROGACAO_CONTRATO_EXPERIENCIA	Motivo da prorrogação do contrato de experiência.   (MOTIVO_PRORROGACAO_CONTRATO_EXPERIENCIA)	varchar	1	50		I		0
+2	FOEMPREGADOS	298	DESCONTAR_ESTOURO_RESCISAO_EMPRESA_ORIGEM	Descontar o estouro de rescisão da empresa origem na empresa destino. (0=Não/1=Sim)   (DESCONTAR_ESTOURO_RESCISAO_EMPRESA_ORIGEM)	smallint	1	7		I		0
+2	FOEMPREGADOS	299	DESCONTAR_CONTRIBUICAO_SINDICAL_A_PARTIR_11_2017	Descontar contribuição sindical a partir de 11/2017. (0=Não/1=Sim)   (DESCONTAR_CONTRIBUICAO_SINDICAL_A_PARTIR_11_2017)	smallint	1	7		I		0
+2	FOEMPREGADOS	300	COMPETENCIA_INICIO_DESCONTO_CONTRIBUICAO_SINDICAL_	Competência de início do desconto da contribuição sindical a partir de 11/2017.   (COMPETENCIA_INICIO_DESCONTO_CONTRIBUICAO_SINDICAL_A_PARTIR_11_2017)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	301	PAGA_CONTR_SIND_11_2017	Pagou contr. sindical após 11/2017?   (PAGA_CONTR_SIND_11_2017)	char	1	1		I		0
+2	FOEMPREGADOS	302	I_DADOS_EVENTOS_ESOCIAL	**SEM USO**   (I_DADOS_EVENTOS_ESOCIAL)	integer	1	7		I		0
+2	FOEMPREGADOS	303	I_LOTE_ESOCIAL	**SEM USO**   (I_LOTE_ESOCIAL)	integer	1	7		I		0
+2	FOEMPREGADOS	304	STATUS_ESOCIAL	**SEM USO**   (STATUS_ESOCIAL)	smallint	1	7		I		0
+2	FOEMPREGADOS	305	ENVIAR_ESOCIAL	Enviar para o eSocial. (0=Não/1=Sim)   (ENVIAR_ESOCIAL)	smallint	1	7		I		0
+2	FOEMPREGADOS	306	INCLUSAO_VALIDADA_ESOCIAL	**SEM USO**   (INCLUSAO_VALIDADA_ESOCIAL)	smallint	1	7		I		0
+2	FOEMPREGADOS	307	GERAR_RETIFICACAO_ESOCIAL	Gerar retificação para o eSocial. (0=Não/1=Sim)   (GERAR_RETIFICACAO_ESOCIAL)	smallint	1	7		I		0
+2	FOEMPREGADOS	308	CODI_EMP_ESOCIAL_S_2205	**SEM USO**   (CODI_EMP_ESOCIAL_S_2205)	integer	1	7		I		0
+2	FOEMPREGADOS	309	I_EMPREGADOS_ESOCIAL_S_2205	**SEM USO**   (I_EMPREGADOS_ESOCIAL_S_2205)	integer	1	7		I		0
+2	FOEMPREGADOS	310	I_DADOS_EVENTOS_ESOCIAL_S_2205	**SEM USO**   (I_DADOS_EVENTOS_ESOCIAL_S_2205)	integer	1	7		I		0
+2	FOEMPREGADOS	311	I_LOTE_ESOCIAL_S_2205	**SEM USO**   (I_LOTE_ESOCIAL_S_2205)	integer	1	7		I		0
+2	FOEMPREGADOS	312	STATUS_ESOCIAL_S_2205	**SEM USO**   (STATUS_ESOCIAL_S_2205)	smallint	1	7		I		0
+2	FOEMPREGADOS	313	ENVIAR_ESOCIAL_S_2205	Enviar para o eSocial o evento S-2205. (0=Não/1=Sim)   (ENVIAR_ESOCIAL_S_2205)	smallint	1	7		I		0
+2	FOEMPREGADOS	314	INCLUSAO_VALIDADA_ESOCIAL_S_2205	**SEM USO**   (INCLUSAO_VALIDADA_ESOCIAL_S_2205)	smallint	1	7		I		0
+2	FOEMPREGADOS	315	GERAR_RETIFICACAO_ESOCIAL_S_2205	Gerar retificação do evento S-2205 para o eSocial. (0=Não/1=Sim)   (GERAR_RETIFICACAO_ESOCIAL_S_2205)	smallint	1	7		I		0
+2	FOEMPREGADOS	316	I_DADOS_EVENTOS_ESOCIAL_S_2206	**SEM USO**   (I_DADOS_EVENTOS_ESOCIAL_S_2206)	integer	1	7		I		0
+2	FOEMPREGADOS	317	I_LOTE_ESOCIAL_S_2206	**SEM USO**   (I_LOTE_ESOCIAL_S_2206)	integer	1	7		I		0
+2	FOEMPREGADOS	318	STATUS_ESOCIAL_S_2206	**SEM USO**   (STATUS_ESOCIAL_S_2206)	smallint	1	7		I		0
+2	FOEMPREGADOS	319	ENVIAR_ESOCIAL_S_2206	Enviar para o eSocial o evento S-2206. (0=Não/1=Sim)   (ENVIAR_ESOCIAL_S_2206)	smallint	1	7		I		0
+2	FOEMPREGADOS	320	INCLUSAO_VALIDADA_ESOCIAL_S_2206	**SEM USO**   (INCLUSAO_VALIDADA_ESOCIAL_S_2206)	smallint	1	7		I		0
+2	FOEMPREGADOS	321	GERAR_RETIFICACAO_ESOCIAL_S_2206	Gerar retificação do evento S-2206 para o eSocial. (0=Não/1=Sim)   (GERAR_RETIFICACAO_ESOCIAL_S_2206)	smallint	1	7		I		0
+2	FOEMPREGADOS	322	EXCLUIR_EVENTO_S_2205_RETIFICACAO	Indica se o empregado possui algum evento S-2205 sendo excluído do eSocial referente a uma retificação que excluiu a alteração.   (EXCLUIR_EVENTO_S_2205_RETIFICACAO)	smallint	1	7		I		0
+2	FOEMPREGADOS	323	EXCLUIR_EVENTO_S_2206_RETIFICACAO	Indica se o empregado possui algum evento S-2206/S-2306 sendo excluído do eSocial referente a uma retificação que excluiu a alteração.   (EXCLUIR_EVENTO_S_2206_RETIFICACAO)	smallint	1	7		I		0
+2	FOEMPREGADOS	324	LEI_ANISTIA_ADMISSAO	Lei de Anistia/Ano.   (LEI_ANISTIA_ADMISSAO)	varchar	1	13		I		0
+2	FOEMPREGADOS	325	DATA_EFEITO_REINTEGRACAO	Data de efeito da reintegração.   (DATA_EFEITO_REINTEGRACAO)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	326	NUMERO_PROCESSO_REINTEGRACAO	Número do processo de reintegração   (NUMERO_PROCESSO_REINTEGRACAO)	varchar	1	20		I		0
+2	FOEMPREGADOS	327	CODI_EMP_REINTEGRACAO	Código da empresa do empregado para reintegração.   (CODI_EMP_REINTEGRACAO)	integer	1	7		I		0
+2	FOEMPREGADOS	328	I_EMPREGADOS_REINTEGRACAO	Código do empregado para reintegração.   (I_EMPREGADOS_REINTEGRACAO)	integer	1	7		I		0
+2	FOEMPREGADOS	329	ENVIAR_S_2200_REINTEGRACAO	Enviar para o eSocial o evento S-2200 na reintegração. (0=Não/1=Sim)   (ENVIAR_S_2200_REINTEGRACAO)	smallint	1	7		I		0
+2	FOEMPREGADOS	330	DESLIGAMENTO_REALIZADO_MESMO_BANCO_REINTEGRACAO	Desligamento de empregado reintegrado efetuado no mesmo banco. (0=Não/1=Sim)   (DESLIGAMENTO_REALIZADO_MESMO_BANCO_REINTEGRACAO)	smallint	1	7		I		0
+2	FOEMPREGADOS	331	DESLIGAMENTO_ENVIADO_ESOCIAL_REINTEGRACAO	Desligamento de empregado reintegrado enviado ao eSocial. (0=Não/1=Sim)   (DESLIGAMENTO_ENVIADO_ESOCIAL_REINTEGRACAO)	smallint	1	7		I		0
+2	FOEMPREGADOS	332	DATA_DESLIGAMETO_REINTEGRACAO	Data de desligamento de empregado reintegrado.   (DATA_DESLIGAMETO_REINTEGRACAO)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS	333	ENVIAR_REGISTRO_APOS_EXCLUSAO_ESOCIAL	Reenviar automaticamente o registro após a exclusão do mesmo no eSocial. (0=Não/1=Sim)   (ENVIAR_REGISTRO_APOS_EXCLUSAO_ESOCIAL)	smallint	1	7		I		0
+2	FOEMPREGADOS	334	TRANSFERIDO_COM_EMPREGADO_ORIGEM_VALIDADO_NO_ESOCI	Empregado transferido que teve seu empregado origem já validado no eSocial. (0=Não/1=Sim)   (TRANSFERIDO_COM_EMPREGADO_ORIGEM_VALIDADO_NO_ESOCIAL)	smallint	1	7		I		0
+2	FOEMPREGADOS	335	ENVIAR_CADASTRO_EMPREGADO_EVENTO_S_1200_ESOCIAL	Enviar o cadastro do empregado para o eSocial através do evento S-1200. (0=Não/1=Sim)   (ENVIAR_CADASTRO_EMPREGADO_EVENTO_S_1200_ESOCIAL)	smallint	1	7		I		0
+2	FOEMPREGADOS	336	PROCESSAR_EXCLUSAO_ESOCIAL	Marcação do evento para gerar o evento de exclusão no eSocial. (0=Não/1=Sim)   (PROCESSAR_EXCLUSAO_ESOCIAL)	smallint	1	7		I		0
+2	FOEMPREGADOS	337	PROCESSAR_EXCLUSAO_ESOCIAL_S_2205	Marcação do evento S-2205 para gerar o evento de exclusão no eSocial. (0=Não/1=Sim)   (PROCESSAR_EXCLUSAO_ESOCIAL_S_2205)	smallint	1	7		I		0
+2	FOEMPREGADOS	338	PROCESSAR_EXCLUSAO_ESOCIAL_S_2206	Marcação do evento S-2206 para gerar o evento de exclusão no eSocial. (0=Não/1=Sim)   (PROCESSAR_EXCLUSAO_ESOCIAL_S_2206)	smallint	1	7		I		0
+2	FOEMPREGADOS	339	CATEGORIA_ESOCIAL	Código da categoria eSocial.   (CATEGORIA_ESOCIAL)	integer	1	7		I		0
+2	FOEMPREGADOS	340	NUMERO_RECIBO_VALIDACAO_UTILITARIO_CONVERSAO_OUTRO	Número do recibo quando validado pelo utilitário de conversão de outros bancos.   (NUMERO_RECIBO_VALIDACAO_UTILITARIO_CONVERSAO_OUTRO_BANCO)	varchar	1	50		I		0

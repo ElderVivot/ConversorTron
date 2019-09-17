@@ -1,0 +1,6 @@
+2	FOTABELAS	1	i_tabelas	i_tabelas   (i_tabelas)	integer	1	7		I		0
+2	FOTABELAS	2	i_codigo	Sequencial   (i_codigo)	integer	1	7		I		0
+2	FOTABELAS	3	nome	Descricao conteudo campo   (nome)	char	1	100		I		0
+2	FOTABELAS	4	aux1	Auxiliar1   (aux1)	varchar	1	40		I		0
+2	FOTABELAS	5	aux2	Auxiliar2   (aux2)	varchar	1	40		I		0
+2	FOTABELAS	6	origem_reg	Origem do registro 0=Sistema, 1=Imp. Tabelas, 2=Imp. Layout   (origem_reg)	tinyint	1	3		I		0

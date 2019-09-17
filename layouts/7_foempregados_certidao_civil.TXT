@@ -1,0 +1,11 @@
+2	FOEMPREGADOS_CERTIDAO_CIVIL	1	CODI_EMP	Código da empresa.   (CODI_EMP)	integer	1	7		I		0
+2	FOEMPREGADOS_CERTIDAO_CIVIL	2	I_EMPREGADOS	Código do empregado.   (I_EMPREGADOS)	integer	1	7		I		0
+2	FOEMPREGADOS_CERTIDAO_CIVIL	3	TIPO	Tipo da certidão. (1=Certidão de nascimento/2=Certidão de casamento/3=Certidão nascimento indígena4=Certidão de óbito/5=Certidão de emancipação)   (TIPO)	smallint	1	7		I		0
+2	FOEMPREGADOS_CERTIDAO_CIVIL	4	DATA_EMISSAO	Data de emissão da certidão.   (DATA_EMISSAO)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREGADOS_CERTIDAO_CIVIL	5	TERMO_MATRICULA	Termo/Matrícula da certidão.   (TERMO_MATRICULA)	varchar	1	60		I		0
+2	FOEMPREGADOS_CERTIDAO_CIVIL	6	LIVRO	Livro de registro da certidão.   (LIVRO)	varchar	1	10		I		0
+2	FOEMPREGADOS_CERTIDAO_CIVIL	7	FOLHA	Folha de registro da certidão.   (FOLHA)	varchar	1	20		I		0
+2	FOEMPREGADOS_CERTIDAO_CIVIL	8	CARTORIO	Cartório de registro da certidão.   (CARTORIO)	varchar	1	40		I		0
+2	FOEMPREGADOS_CERTIDAO_CIVIL	9	CODIGO_MUNICIPIO	Código do município do cartório.   (CODIGO_MUNICIPIO)	integer	1	7		I		0
+2	FOEMPREGADOS_CERTIDAO_CIVIL	10	EMITIR_DOCUMENTOS	Emitir documentos. (0=Não/1=Sim)   (EMITIR_DOCUMENTOS)	smallint	1	7		I		0
+2	FOEMPREGADOS_CERTIDAO_CIVIL	11	ORIGEM_REG	Origem do registro (0=Sistema/ 1=Imp Tabelas/ 2=Imp Layout)   (ORIGEM_REG)	smallint	1	7		I		0

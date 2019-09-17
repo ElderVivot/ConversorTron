@@ -1,0 +1,33 @@
+2	FOFILIAIS	1	codi_emp	Codigo empresa   (codi_emp)	integer	1	7		I		0
+2	FOFILIAIS	2	i_filiais	Codigo   (i_filiais)	integer	1	7		I		0
+2	FOFILIAIS	3	nome	Nome   (nome)	char	1	40		I		0
+2	FOFILIAIS	4	endereco	Endereco   (endereco)	char	1	40		I		0
+2	FOFILIAIS	5	numero	Numero   (numero)	integer	1	7		I		0
+2	FOFILIAIS	6	complemento	Complemento   (complemento)	char	1	60		I		0
+2	FOFILIAIS	7	cidade	Cidade   (cidade)	char	1	25		I		0
+2	FOFILIAIS	8	estado	Estado   (estado)	char	1	2		I		0
+2	FOFILIAIS	9	cep	CEP   (cep)	char	1	8		I		0
+2	FOFILIAIS	10	tipo_insc	Tipo inscricao   (tipo_insc)	tinyint	1	3		I		0
+2	FOFILIAIS	11	cgc	Inscricao   (cgc)	char	1	14		I		0
+2	FOFILIAIS	12	inscricao	Inscr. Estadual   (inscricao)	char	1	22		I		0
+2	FOFILIAIS	13	telefone	Telefone   (telefone)	char	1	14		I		0
+2	FOFILIAIS	14	cnae	CNAE   (cnae)	double	1	8		I		0
+2	FOFILIAIS	15	i_municipio	Cod. Municipio   (i_municipio)	integer	1	7		I		0
+2	FOFILIAIS	16	bairro	Bairro   (bairro)	char	1	20		I		0
+2	FOFILIAIS	17	origem_reg	Origem do registro 0=Sistema, 1=Imp. Tabelas, 2=Imp. Layout   (origem_reg)	tinyint	1	3		I		0
+2	FOFILIAIS	18	codigo_municipio	Codigo do municipio   (codigo_municipio)	integer	1	7		I		0
+2	FOFILIAIS	19	i_cnae20	Código do CNAE 2.0. **SEM USO**   (i_cnae20)	char	1	15		I		0
+2	FOFILIAIS	20	i_sindicatos_p	** SEM USO ** Codigo do sindicato patronal   (i_sindicatos_p)	integer	1	7		I		0
+2	FOFILIAIS	21	sind_centralizador	Indica se o sindicato e centralizador   (sind_centralizador)	tinyint	1	3		I		0
+2	FOFILIAIS	22	sind_capital_social	** SEM USO ** Capital social   (sind_capital_social)	numeric	1	13		I		2
+2	FOFILIAIS	23	cnpj_centralizador	CNPJ da filial centralizadora   (cnpj_centralizador)	char	1	14		I		0
+2	FOFILIAIS	24	SINDICALIZADA	EMPRESA E FILIADA A SINDICATO   (SINDICALIZADA)	char	1	1		I		0
+2	FOFILIAIS	25	CODI_EMP_ATENDIMENTO	Código da empresa no módulo Domínio Atendimento   (CODI_EMP_ATENDIMENTO)	integer	1	7		I		0
+2	FOFILIAIS	26	PERMITE_CADASTRAR_EMPREGADOS_DOMINIO_ATENDIMENTO	Permite cadastrar empregados no Domínio Atendimento. (0=Não/1=Sim)   (PERMITE_CADASTRAR_EMPREGADOS_DOMINIO_ATENDIMENTO)	smallint	1	7		I		0
+2	FOFILIAIS	27	CENTRALIZACAO_EVENTOS_ESOCIAL	Centralização dos eventos do eSocial. (1=Centralizada/2=Centralizadora)   (CENTRALIZACAO_EVENTOS_ESOCIAL)	smallint	1	7		I		0
+2	FOFILIAIS	28	POSSUI_ESTABELECIMENTOS_OUTRO_BANCO_DADOS	Possui estabelecimentos em outro banco de dados. (0=Não/1=Sim)   (POSSUI_ESTABELECIMENTOS_OUTRO_BANCO_DADOS)	smallint	1	7		I		0
+2	FOFILIAIS	29	RAZAO_SOCIAL	Razão social.   (RAZAO_SOCIAL)	varchar	1	255		I		0
+2	FOFILIAIS	30	TIPO_ENDERECO	Tipo do endereço.   (TIPO_ENDERECO)	smallint	1	7		I		0
+2	FOFILIAIS	31	TODAS_FILIAIS_CENTRALIZADAS_POSSUEM_MESMA_TABELA_R	Todas as filiais centralizadas possuem a mesma tabela de rubricas. (0=NÃ£o/1=Sim)   (TODAS_FILIAIS_CENTRALIZADAS_POSSUEM_MESMA_TABELA_RUBRICAS)	smallint	1	7		I		0
+2	FOFILIAIS	32	POSSUI_EMPRESA_CENTRALIZADORA_RUBRICAS_ESOCIAL_OUT	Possui a empresa centralizadora dos eventos do eSocial em outro banco de dados. (0=Não/1=Sim)   (POSSUI_EMPRESA_CENTRALIZADORA_RUBRICAS_ESOCIAL_OUTRO_BANCO_DADOS)	smallint	1	7		I		0
+2	FOFILIAIS	33	IDENTIFICADOR_TABELA_RUBRICAS_ESOCIAL	Identificador da tabela de rubricas para o eSocial.   (IDENTIFICADOR_TABELA_RUBRICAS_ESOCIAL)	varchar	1	8		I		0

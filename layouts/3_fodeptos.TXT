@@ -1,0 +1,13 @@
+2	FODEPTO	1	codi_emp	Codigo empresa   (codi_emp)	integer	1	7		I		0
+2	FODEPTO	2	i_depto	Codigo   (i_depto)	integer	1	7		I		0
+2	FODEPTO	3	nome	Nome   (nome)	char	1	40		I		0
+2	FODEPTO	4	endereco	Endereco   (endereco)	char	1	40		I		0
+2	FODEPTO	5	numero	Numero   (numero)	integer	1	7		I		0
+2	FODEPTO	6	bairro	Bairro   (bairro)	char	1	20		I		0
+2	FODEPTO	7	cidade	Cidade   (cidade)	char	1	20		I		0
+2	FODEPTO	8	estado	Estado   (estado)	char	1	2		I		0
+2	FODEPTO	9	cep	CEP   (cep)	char	1	8		I		0
+2	FODEPTO	10	origem_reg	Origem do registro 0=Sistema, 1=Imp. Tabelas, 2=Imp. Layout   (origem_reg)	tinyint	1	3		I		0
+2	FODEPTO	11	DATA_INICIO	Data de início do departamento.   (DATA_INICIO)	date	1	10	DD/MM/YYYY	I		0
+2	FODEPTO	12	SITUACAO	Situação do departamento. (0=Inativo/1=Ativo)   (SITUACAO)	smallint	1	7		I		0
+2	FODEPTO	13	DATA_INATIVACAO	Data de inativação do departamento.   (DATA_INATIVACAO)	date	1	10	DD/MM/YYYY	I		0

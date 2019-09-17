@@ -1,0 +1,38 @@
+2	FOFILHOS	1	codi_emp	Codigo empresa   (codi_emp)	integer	1	7		I		0
+2	FOFILHOS	2	i_empregados	Codigo Empregado   (i_empregados)	integer	1	7		I		0
+2	FOFILHOS	3	i_filhos	Codigo do dependente   (i_filhos)	integer	1	7		I		0
+2	FOFILHOS	4	nome	Nome do dependente   (nome)	char	1	60		I		0
+2	FOFILHOS	5	data_nascto	Data nascimento   (data_nascto)	date	1	10	DD/MM/YYYY	I		0
+2	FOFILHOS	6	local_nascto	Local nascimento   (local_nascto)	char	1	40		I		0
+2	FOFILHOS	7	cartorio_registro	Cartorio registro   (cartorio_registro)	char	1	40		I		0
+2	FOFILHOS	8	num_reg_cart	Num. Reg. Cart.   (num_reg_cart)	char	1	10		I		0
+2	FOFILHOS	9	filho	Filho   (filho)	char	1	1		I		0
+2	FOFILHOS	10	idade_fim_fil	Valido ate (filho)   (idade_fim_fil)	integer	1	7		I		0
+2	FOFILHOS	11	dependente	dependente   (dependente)	char	1	1		I		0
+2	FOFILHOS	12	idade_fim_dep	Valido ate (dependente)   (idade_fim_dep)	integer	1	7		I		0
+2	FOFILHOS	13	grau_parentesco	Grau parentesco.   (grau_parentesco)	integer	1	7		I		0
+2	FOFILHOS	14	nlivro	No. livro   (nlivro)	char	1	8		I		0
+2	FOFILHOS	15	nfolha	No. folha   (nfolha)	char	1	8		I		0
+2	FOFILHOS	16	data_entrega	Entrega doc.   (data_entrega)	date	1	10	DD/MM/YYYY	I		0
+2	FOFILHOS	17	vencto_cart_vacina	Vencto. At. Freq.   (vencto_cart_vacina)	date	1	10	DD/MM/YYYY	I		0
+2	FOFILHOS	18	vencto_atest_freq	Vencto. Cart. Vacina   (vencto_atest_freq)	date	1	10	DD/MM/YYYY	I		0
+2	FOFILHOS	19	origem_reg	Origem do registro 0=Sistema, 1=Imp. Tabelas, 2=Imp. Layout   (origem_reg)	tinyint	1	3		I		0
+2	FOFILHOS	20	PLANO_SAUDE_OPTANTE	** SEM USO ** Optande do plano de saúde   (PLANO_SAUDE_OPTANTE)	char	1	1		I		0
+2	FOFILHOS	21	PLANO_SAUDE_INICIO	** SEM USO ** Início do plano de saúde   (PLANO_SAUDE_INICIO)	date	1	10	DD/MM/YYYY	I		0
+2	FOFILHOS	22	PLANO_SAUDE_FIM	** SEM USO ** Fim do plano de saúde   (PLANO_SAUDE_FIM)	date	1	10	DD/MM/YYYY	I		0
+2	FOFILHOS	23	PLANO_SAUDE_FIM_DETERMINADO	** SEM USO ** Possui data fim do plano de saúde determinado   (PLANO_SAUDE_FIM_DETERMINADO)	char	1	1		I		0
+2	FOFILHOS	24	SAL_FAM_FIM	Data fim para dependencia salario familia   (SAL_FAM_FIM)	date	1	10	DD/MM/YYYY	I		0
+2	FOFILHOS	25	SAL_FAM_FIM_DETERMINADO	Possui data fim do salario familia determinado   (SAL_FAM_FIM_DETERMINADO)	char	1	1		I		0
+2	FOFILHOS	26	DEPEND_IRRF_FIM	Data fim para dependencia do IRRF   (DEPEND_IRRF_FIM)	date	1	10	DD/MM/YYYY	I		0
+2	FOFILHOS	27	DEPEND_IRRF_FIM_DETERMINADO	Possui data fim dependencia para o IRRF determinado   (DEPEND_IRRF_FIM_DETERMINADO)	char	1	1		I		0
+2	FOFILHOS	28	DECLARACAO_NASCIDO_VIVO	NUmero da declaraCAo de Nascido Vivo   (DECLARACAO_NASCIDO_VIVO)	char	1	11		I		0
+2	FOFILHOS	29	MATRICULA_CERTIDAO_NASCIMENTO	NUmero da matricula da certidAo de nascimento   (MATRICULA_CERTIDAO_NASCIMENTO)	char	1	34		I		0
+2	FOFILHOS	30	CPF	CPF   (CPF)	char	1	11		I		0
+2	FOFILHOS	31	RECEBE_PENSAO_ALIMENTICIA	Recebe pensão alimentícia. (0=Não/1=Sim)   (RECEBE_PENSAO_ALIMENTICIA)	smallint	1	7		I		0
+2	FOFILHOS	32	DETERMINAR_FIM_PENSAO_ALIMENTICIA	Determinar fim do recebimento da pensão alimentícia. (0=Não/1=Sim)   (DETERMINAR_FIM_PENSAO_ALIMENTICIA)	smallint	1	7		I		0
+2	FOFILHOS	33	DATA_FIM_PENSAO_ALIMENTICIA	Data fim do recebimento da pensão alimentícia.   (DATA_FIM_PENSAO_ALIMENTICIA)	date	1	10	DD/MM/YYYY	I		0
+2	FOFILHOS	34	GERAR_COMPENSACAO_PER_DCOMP	Gerar compensação para o PER/DCOMP. (0=Não/1=Sim)   (GERAR_COMPENSACAO_PER_DCOMP)	smallint	1	7		I		0
+2	FOFILHOS	35	COMPETENCIA_INICIO_COMPENSACAO_PER_DCOMP	Competência de início da compensação para o PER/DCOMP.   (COMPETENCIA_INICIO_COMPENSACAO_PER_DCOMP)	date	1	10	DD/MM/YYYY	I		0
+2	FOFILHOS	36	DETERMINAR_FIM_COMPENSACAO_PER_DCOMP	Determinar o fim da compensação para o PER/DCOMP. (0=Não/1=Sim)   (DETERMINAR_FIM_COMPENSACAO_PER_DCOMP)	smallint	1	7		I		0
+2	FOFILHOS	37	COMPETENCIA_FIM_COMPENSACAO_PER_DCOMP	Competência de fim da compensação para o PER/DCOMP.   (COMPETENCIA_FIM_COMPENSACAO_PER_DCOMP)	date	1	10	DD/MM/YYYY	I		0
+2	FOFILHOS	38	POSSUI_DEFICIENCIA_FISICA_MENTAL	Possui deficiência física ou mental. (0=Não/1=Sim)   (POSSUI_DEFICIENCIA_FISICA_MENTAL)	smallint	1	7		I		0

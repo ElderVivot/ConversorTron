@@ -1,0 +1,6 @@
+2	FOEMPREG_CONTRSIND	1	codi_emp	Codigo empresa   (codi_emp)	integer	1	7		I		0
+2	FOEMPREG_CONTRSIND	2	i_empregados	Codigo empregado   (i_empregados)	integer	1	7		I		0
+2	FOEMPREG_CONTRSIND	3	competencia	Competencia   (competencia)	date	1	10	DD/MM/YYYY	I		0
+2	FOEMPREG_CONTRSIND	4	origem_reg	Origem do registro 0=Sistema, 1=Imp. Tabelas, 2=Imp. Layout   (origem_reg)	tinyint	1	3		I		0
+2	FOEMPREG_CONTRSIND	5	ANO_REFERENCIA	Ano de referência   (ANO_REFERENCIA)	integer	1	7		I		0
+2	FOEMPREG_CONTRSIND	6	ORIGEM	Origem: (1=Normal/2=Replicação por rescisão por transferência)   (ORIGEM)	smallint	1	7		I		0

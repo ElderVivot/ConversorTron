@@ -1,0 +1,20 @@
+++++++++ 23/10/2016 +++++++
+
+- Mudado totalmente a lógica do conversor para facilitar a análise.
+- Lógica mais voltado para orientação a objetos
+- Implementado para gerar o aquivo empregasas_converter_original.txt afim de mandar pro cliente fazer o filtro de quais empresas deseja converter
+- Alterado a maioria dos SQLs e criados outros
+- Implementado para importar dados do telefone e e-mail
+- Implementado para importar as trocas (salários, cargos, departamentos, horários, centro de custos), contribuição sindical e gozo de férias.
+
+++++++++ 16/12/2016 ++++++++
+
+- Alterado a lógica para a criação dos horários e jornadas. Em vez de replicar foi alterado para ler do arquivo auxiliar de empregados que contêm a jornadas e do arquivo de troca de horário (jornada). Irá otimizar o tempo da conversão.
+
+++++++++ 26/12/2016 ++++++++
+
+- Definido para que a primeira troca de salário, cargo e departamentos acaso tiver a data de alteração diferente da data da admissão então a data da troca receba a admissão. Isto é necessário para que não tenhamos caso de o salário das trocas seja igual ao último.
+- Implementado para que os dados extraídos sejam todos em txt e separado pelo pipe. E daí vai ter o arquivo troca_extensao_arquivo.bat onde irá tirar todos os pontos e vírgulas e mudar a extensão .txt para .csv
+
+++++++++ 04/07/2017 ++++++++
+- Mudado layout fohorarios para gerar a duração do intervalor em minutos

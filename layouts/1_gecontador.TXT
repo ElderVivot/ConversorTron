@@ -1,0 +1,41 @@
+2	GECONTADOR	1	codi_con	Codigo   (codi_con)	integer	1	7		I		0
+2	GECONTADOR	2	nome_con	Nome   (nome_con)	varchar	1	255		I		0
+2	GECONTADOR	3	rcrc_con	CRC   (rcrc_con)	char	1	15		I		0
+2	GECONTADOR	4	cpfc_con	CPF   (cpfc_con)	char	1	14		I		0
+2	GECONTADOR	5	ende_con	Endereco   (ende_con)	char	1	40		I		0
+2	GECONTADOR	6	nume_con	Numero do Endereco   (nume_con)	integer	1	7		I		0
+2	GECONTADOR	7	bair_con	Bairro   (bair_con)	char	1	20		I		0
+2	GECONTADOR	8	cida_con	Cidade   (cida_con)	char	1	25		I		0
+2	GECONTADOR	9	cmun_con	Codigo do municipio   (cmun_con)	integer	1	7		I		0
+2	GECONTADOR	10	cepe_con	CEP   (cepe_con)	char	1	8		I		0
+2	GECONTADOR	11	ufed_con	Estado   (ufed_con)	char	1	2		I		0
+2	GECONTADOR	12	fone_con	Telefone   (fone_con)	char	1	10		I		0
+2	GECONTADOR	13	dddf_con	DDD do fone   (dddf_con)	integer	1	7		I		0
+2	GECONTADOR	14	faxe_con	FAX   (faxe_con)	char	1	14		I		0
+2	GECONTADOR	15	email_con	e-mail   (email_con)	char	1	50		I		0
+2	GECONTADOR	16	cfdf_con	CF/DF Somente para o Distrito Federal   (cfdf_con)	char	1	13		I		0
+2	GECONTADOR	17	tins_con	Tipo de inscricao (1=CNPJ, 2=CPF)   (tins_con)	tinyint	1	3		I		0
+2	GECONTADOR	18	categoria_con	Categoria (T - Tecnico/C - Contador)   (categoria_con)	char	1	1		I		0
+2	GECONTADOR	19	origem_reg	Origem do registro 0 - Sistema, 1 - Imp. Tabelas, 2 - Imp. Layout   (origem_reg)	tinyint	1	3		I		0
+2	GECONTADOR	20	cmunrais_con	Codigo do municipio do IBGE   (cmunrais_con)	integer	1	7		I		0
+2	GECONTADOR	21	codigo_municipio	Codigo do municipio   (codigo_municipio)	integer	1	7		I		0
+2	GECONTADOR	22	cnpj	CNPJ   (cnpj)	char	1	14		I		0
+2	GECONTADOR	23	identidade	Carteira de identidade   (identidade)	char	1	15		I		0
+2	GECONTADOR	24	data_exp_ident	Data expedicao   (data_exp_ident)	date	1	10	DD/MM/YYYY	I		0
+2	GECONTADOR	25	org_exp_ident	Orgao expedidor   (org_exp_ident)	char	1	8		I		0
+2	GECONTADOR	26	uf_exp_ident	UF expedidor   (uf_exp_ident)	char	1	2		I		0
+2	GECONTADOR	27	MATRICULA	Matrícula   (MATRICULA)	char	1	6		I		0
+2	GECONTADOR	28	CERTIFICADO_DIGITAL	Possui o Certificado digital para assinatura dos atos da Junta Comercial(S/N)   (CERTIFICADO_DIGITAL)	char	1	1		I		0
+2	GECONTADOR	29	COMPLEMENTO	Complemento endereco   (COMPLEMENTO)	varchar	1	60		I		0
+2	GECONTADOR	30	UF_CRC	UF CRC   (UF_CRC)	char	1	2		I		0
+2	GECONTADOR	31	ACESSO_PORTAL_SEFAZ	SEFAZ - Acesso ao portal   (ACESSO_PORTAL_SEFAZ)	char	1	1		I		0
+2	GECONTADOR	32	TIPO_PESSOA_PORTAL_SEFAZ	SEFAZ - Tipo de pessoa   (TIPO_PESSOA_PORTAL_SEFAZ)	char	1	1		I		0
+2	GECONTADOR	33	SENHA_PORTAL_SEFAZ	SEFAZ - Senha   (SENHA_PORTAL_SEFAZ)	varchar	1	16		I		0
+2	GECONTADOR	34	TIPO_CRC_SEFAZ	SEFAZ - Tipo do CRC   (TIPO_CRC_SEFAZ)	integer	1	7		I		0
+2	GECONTADOR	35	DATA_VALIDADE_CRC	Data de validade do CRC   (DATA_VALIDADE_CRC)	date	1	10	DD/MM/YYYY	I		0
+2	GECONTADOR	36	SEQUENCIAL_CRC	Sequencial do CRC   (SEQUENCIAL_CRC)	varchar	1	20		I		0
+2	GECONTADOR	37	ARQUIVO_CERTIFICADO_DIGITAL	Arquivo Certificado Digital (SEFAZ)   (ARQUIVO_CERTIFICADO_DIGITAL)	varchar	1	256		I		0
+2	GECONTADOR	38	RAZAO_SOCIAL	Razão Social   (RAZAO_SOCIAL)	varchar	1	255		I		0
+2	GECONTADOR	39	CRC_ESCRITORIO	Número de inscrição do CRC do Escritório   (CRC_ESCRITORIO)	varchar	1	15		I		0
+2	GECONTADOR	40	CERTIFICADO_DIGITAL_A3	Certificado Digital A3 (SEFAZ)   (CERTIFICADO_DIGITAL_A3)	char	1	1		I		0
+2	GECONTADOR	41	RESPONSAVEL_LEGAL_EMPRESA_JUNTO_BASE_RFB	(ESTA COLUNA NÃO É MAIS UTILIZADA)   (RESPONSAVEL_LEGAL_EMPRESA_JUNTO_BASE_RFB)	char	1	1		I		0
